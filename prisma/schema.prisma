@@ -1,0 +1,198 @@
+// Astral Code — Prisma schema
+// Postgres. Prisma 7: connection config lives in prisma.config.ts, not here.
+// Run: npx prisma migrate dev (or: npm run db:push)
+
+generator client {
+  provider = "prisma-client"
+  output   = "../src/generated/prisma"
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+// ---------- Auth / users ----------
+
+model User {
+  id           String    @id @default(cuid())
+  username     String    @unique
+  email        String    @unique
+  passwordHash String?
+  avatar       String?
+  isAdmin      Boolean   @default(false)
+  emailVerified DateTime?
+  createdAt    DateTime  @default(now())
+
+  sessions           Session[]
+  sessionsAwarded    PlaySession[]       @relation("awarder")
+  wallet             Wallet?
+  achievements       UserAchievement[]
+  scores             LeaderboardScore[]
+  ownedCosmetics     OwnedCosmetic[]
+  passwordResets     PasswordReset[]
+  verificationTokens VerificationToken[]
+
+  @@index([email])
+  @@index([username])
+}
+
+model Session {
+  id        String   @id @default(cuid())
+  userToken String
+  userId    String
+  expiresAt DateTime
+  createdAt DateTime @default(now())
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+}
+
+model PasswordReset {
+  id        String   @id @default(cuid())
+  token     String   @unique
+  userId    String
+  expiresAt DateTime
+  createdAt DateTime @default(now())
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+}
+
+model VerificationToken {
+  id        String   @id @default(cuid())
+  token     String   @unique
+  userId    String
+  expiresAt DateTime
+  createdAt DateTime @default(now())
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+}
+
+// ---------- Games ----------
+
+model Game {
+  id              String   @id @default(cuid())
+  slug            String   @unique
+  titleEn         String
+  titleFa         String
+  descriptionEn   String
+  descriptionFa   String
+  genre           String
+  coverUrl        String
+  bannerUrl       String?
+  trailerUrl      String?
+  screenshots     String[] @default([])
+  howToPlayEn     String
+  howToPlayFa     String
+  deviceReqs      String[] @default([])
+  launchUrl       String?
+  coinsPerSession Int      @default(50)
+  coinsPerLevel   Int      @default(10)
+  dailyCapCoins   Int      @default(500)
+  dailyLoginBonus Int      @default(20)
+  apiKeyHash      String?
+  isActive        Boolean  @default(true)
+  releasedAt      DateTime @default(now())
+  createdAt       DateTime @default(now())
+  updatedAt       DateTime @updatedAt
+
+  sessions PlaySession[]
+  scores   LeaderboardScore[]
+}
+
+// ---------- Play sessions ----------
+
+model PlaySession {
+  id            String   @id @default(cuid())
+  gameId        String
+  awardedBy     String?
+  durationSec   Int
+  levelsCleared Int      @default(0)
+  coinsAwarded  Int      @default(0)
+  clientNonce   String   @unique
+  clientMeta    Json?
+  createdAt     DateTime @default(now())
+
+  game      Game  @relation(fields: [gameId], references: [id])
+  awardUser User? @relation("awarder", fields: [awardedBy], references: [id], onDelete: SetNull)
+
+  @@index([gameId, createdAt])
+  @@index([awardedBy, createdAt])
+}
+
+// ---------- Wallet + immutable ledger ----------
+
+model Wallet {
+  id        String   @id @default(cuid())
+  userId    String   @unique
+  balance   Int      @default(0)
+  updatedAt DateTime @updatedAt
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+}
+
+model CoinTransaction {
+  id           String   @id @default(cuid())
+  userId       String
+  amount       Int
+  kind         String
+  refId        String?
+  balanceAfter Int
+  createdAt    DateTime @default(now())
+
+  @@index([userId, createdAt])
+}
+
+// ---------- Achievements ----------
+
+model Achievement {
+  id       String  @id @default(cuid())
+  code     String  @unique
+  nameEn   String
+  nameFa   String
+  icon     String?
+  earnedBy UserAchievement[]
+}
+
+model UserAchievement {
+  userId        String
+  achievementId String
+  earnedAt      DateTime    @default(now())
+  user          User        @relation(fields: [userId], references: [id], onDelete: Cascade)
+  achievement   Achievement @relation(fields: [achievementId], references: [id], onDelete: Cascade)
+
+  @@id([userId, achievementId])
+}
+
+// ---------- Shop ----------
+
+model Cosmetic {
+  id     String  @id @default(cuid())
+  kind   String
+  nameEn String
+  nameFa String
+  price  Int
+  image  String?
+
+  ownedBy OwnedCosmetic[]
+}
+
+model OwnedCosmetic {
+  userId      String
+  cosmeticId  String
+  purchasedAt DateTime @default(now())
+  user        User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  cosmetic    Cosmetic @relation(fields: [cosmeticId], references: [id], onDelete: Cascade)
+
+  @@id([userId, cosmeticId])
+}
+
+// ---------- Leaderboard ----------
+
+model LeaderboardScore {
+  id     String   @id @default(cuid())
+  userId String
+  gameId String
+  score  Int
+  bestAt DateTime @default(now())
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+  game Game @relation(fields: [gameId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, gameId])
+  @@index([gameId, score])
+}

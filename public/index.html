@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Astral Code — Reality, recoded.</title>
+  <meta name="description" content="Astral Code is an independent game studio creating immersive AR experiences that transform ordinary places into strange, interactive worlds." />
+  <link rel="icon" type="image/svg+xml" href="../src/assets/logo.svg" />
+  <link rel="stylesheet" href="../src/styles/main.css" />
+</head>
+<body>
+
+  <!-- ===================== Header ===================== -->
+  <header class="site-header">
+    <div class="container">
+      <a class="brand" href="index.html" aria-label="Astral Code home">
+        <svg class="brand__mark" viewBox="0 0 512 512" aria-hidden="true" fill="none">
+          <use href="../src/assets/logo.svg#ac-mark"></use>
+        </svg>
+        <span class="brand__name">Astral Code</span>
+      </a>
+
+      <button class="nav-toggle" aria-expanded="false" aria-controls="primary-nav" data-nav-toggle>
+        Menu
+      </button>
+
+      <nav class="nav" id="primary-nav" data-nav>
+        <a class="nav__link" href="index.html" aria-current="page">Home</a>
+        <a class="nav__link" href="games.html">Games</a>
+        <a class="nav__link" href="about.html">About</a>
+        <a class="nav__cta" href="#join">Join the Community</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ===================== Hero ===================== -->
+  <section class="hero">
+    <div class="container hero__inner">
+      <div>
+        <span class="hero__eyebrow">AR Game Studio</span>
+        <h1 class="hero__title">Reality, <span class="accent">recoded.</span></h1>
+        <p class="hero__lede">
+          Astral Code is an independent game studio creating immersive AR
+          experiences that transform ordinary places into strange, interactive
+          worlds.
+        </p>
+        <div class="btn-row">
+          <a class="btn btn--primary" href="games.html">Explore the Games</a>
+          <a class="btn btn--ghost" href="#join">Join the Community</a>
+        </div>
+      </div>
+
+      <div class="hero__logo" aria-hidden="true">
+        <!-- Inlined so CSS can recolour it; see note below the block. -->
+        <svg viewBox="0 0 512 512" fill="none">
+          <use href="../src/assets/logo.svg#ac-mark"></use>
+        </svg>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== Featured games ===================== -->
+  <section class="section" id="games">
+    <div class="container">
+      <div class="section__head">
+        <h2>Two worlds, in development</h2>
+        <p>Our first two titles are being built right now. Here's what's coming.</p>
+      </div>
+
+      <div class="grid grid--two">
+
+        <!-- Fire Trace -->
+        <article class="game-card">
+          <div class="game-card__visual">
+            <svg class="game-card__glyph" viewBox="0 0 64 64" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M32 6c4 10 12 14 12 24a12 12 0 1 1-24 0c0-6 4-10 6-14 0 4 2 6 4 6 0-6-2-10 2-16z" />
+            </svg>
+          </div>
+          <div class="game-card__body">
+            <span class="game-card__status">In development</span>
+            <h3>Fire Trace</h3>
+            <p>
+              A fast-paced AR adventure where players follow mysterious trails of
+              living flame through the real world.
+            </p>
+            <div class="btn-row">
+              <a class="btn btn--ghost" href="#follow">Follow Development</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Cicada -->
+        <article class="game-card">
+          <div class="game-card__visual">
+            <svg class="game-card__glyph" viewBox="0 0 64 64" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="32" cy="34" r="14" />
+              <path d="M18 34c-6-2-10-6-12-12M46 34c6-2 10-6 12-12M24 22c-2-8 0-14 8-16M40 22c2-8 0-14-8-16" />
+              <circle cx="32" cy="34" r="3" fill="currentColor" stroke="none" />
+            </svg>
+          </div>
+          <div class="game-card__body">
+            <span class="game-card__status">In development</span>
+            <h3>Cicada</h3>
+            <p>
+              A surreal exploration game where players uncover hidden signals,
+              creatures, and stories appearing around them.
+            </p>
+            <div class="btn-row">
+              <a class="btn btn--ghost" href="#follow">Follow Development</a>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== Follow development ===================== -->
+  <section class="section section--tight" id="follow">
+    <div class="container container--narrow text-center">
+      <h2>Follow Development</h2>
+      <p>
+        We're building in the open. Get dev logs, playtest invites, and early
+        looks at both titles as they take shape.
+      </p>
+      <div class="btn-row" style="justify-content:center;">
+        <a class="btn btn--primary" href="#join">Join the Community</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== Join ===================== -->
+  <section class="section" id="join">
+    <div class="container container--narrow">
+      <div class="card text-center">
+        <span class="card__tag">Community</span>
+        <h2>Join the Community</h2>
+        <p>
+          Playtesters, AR enthusiasts, and the merely curious — all welcome.
+          Drop your email and we'll send you the next build when it's ready.
+        </p>
+        <form class="btn-row" style="justify-content:center; margin-top:1rem;" onsubmit="event.preventDefault(); this.reset(); this.querySelector('[data-msg]').hidden = false;">
+          <label class="visually-hidden" for="join-email">Email address</label>
+          <input
+            id="join-email"
+            type="email"
+            required
+            placeholder="you@example.com"
+            style="padding:0.8rem 1rem; border-radius:8px; border:1px solid var(--border-strong); background:var(--bg); color:var(--text); min-width:240px;"
+          />
+          <button class="btn btn--primary" type="submit">Join the Community</button>
+          <p data-msg hidden style="width:100%; margin-top:0.75rem; color:var(--accent);">
+            Thanks — you're on the list.
+          </p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== Footer ===================== -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="site-footer__brand">
+        <svg class="brand__mark" viewBox="0 0 512 512" aria-hidden="true" fill="none">
+          <use href="../src/assets/logo.svg#ac-mark"></use>
+        </svg>
+        <span>Astral Code — Reality, recoded.</span>
+      </div>
+
+      <nav class="site-footer__links" aria-label="Footer">
+        <a href="index.html">Home</a>
+        <a href="games.html">Games</a>
+        <a href="about.html">About</a>
+        <a href="mailto:hello@astralcode.example">Contact</a>
+      </nav>
+
+      <p class="site-footer__copy">
+        &copy; <span data-year>2026</span> Astral Code. All rights reserved.
+      </p>
+    </div>
+  </footer>
+
+  <script src="../src/scripts/main.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,14 @@
+node_modules/
+.next/
+out/
+build/
+.env
+.env.local
+.env.production
+*.log
+.DS_Store
+coverage/
+.vercel
+next-env.d.ts
+tsconfig.tsbuildinfo
+src/generated/prisma/

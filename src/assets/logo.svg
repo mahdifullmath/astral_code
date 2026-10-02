@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="ac-logo-title ac-logo-desc" fill="none">
+  <title id="ac-logo-title">Astral Code</title>
+  <desc id="ac-logo-desc">Circular emblem with an upward-pointing A, orbit rings, a star, plus symbols, and scattered glyphs.</desc>
+
+  <!-- Everything strokes/fills with currentColor so the mark inherits
+       whatever color the surrounding CSS applies. Set `color` on a wrapper
+       (e.g. .brand__mark { color: var(--accent) }) to recolour. -->
+
+  <!-- Orbit rings ------------------------------------------------------- -->
+  <g stroke="currentColor" stroke-linecap="round">
+    <path d="M 256 96 A 160 160 0 1 0 256 416" stroke-width="14" />
+    <path d="M 256 132 A 124 124 0 1 0 256 380" stroke-width="10" />
+    <path d="M 256 96 A 160 160 0 0 1 340 136" stroke-width="6" stroke-dasharray="2 14" />
+  </g>
+
+  <!-- Scattered orbit dots --------------------------------------------- -->
+  <g fill="currentColor">
+    <circle cx="386" cy="176" r="5" />
+    <circle cx="404" cy="220" r="4" />
+    <circle cx="412" cy="272" r="5" />
+    <circle cx="400" cy="322" r="4" />
+    <circle cx="376" cy="368" r="5" />
+    <circle cx="342" cy="404" r="4" />
+    <circle cx="298" cy="426" r="4" />
+    <circle cx="252" cy="432" r="4" />
+  </g>
+
+  <!-- Dashed arc fragments (bottom-left of emblem) ---------------------- -->
+  <g stroke="currentColor" stroke-width="6" stroke-linecap="round" stroke-dasharray="1 16">
+    <path d="M 176 424 A 170 170 0 0 0 232 440" />
+    <path d="M 150 396 A 178 178 0 0 0 196 424" />
+  </g>
+
+  <!-- Central A / upward arrow ----------------------------------------- -->
+  <g fill="currentColor">
+    <!-- Left leg -->
+    <path d="M 244 200 L 256 168 L 268 200 L 262 214 L 250 214 Z" />
+    <!-- Right leg (asymmetric, gives the arrow feel) -->
+    <path d="M 268 200 L 296 292 L 272 292 L 256 232 Z" />
+    <!-- Crossbar -->
+    <rect x="226" y="246" width="60" height="16" rx="3" />
+    <!-- Small foot accents -->
+    <circle cx="224" cy="292" r="6" />
+  </g>
+
+  <!-- Star (top-left) ---------------------------------------------------- -->
+  <path fill="currentColor"
+        d="M 176 116 L 184 138 L 208 138 L 189 152 L 196 174 L 176 160 L 156 174 L 163 152 L 144 138 L 168 138 Z" />
+
+  <!-- Plus symbols ------------------------------------------------------- -->
+  <g stroke="currentColor" stroke-width="5" stroke-linecap="round">
+    <path d="M 128 240 v 22 M 117 251 h 22" />
+    <path d="M 116 344 v 20 M 106 354 h 20" />
+    <path d="M 136 436 v 20 M 126 446 h 20" />
+    <path d="M 216 468 v 20 M 206 478 h 20" />
+    <path d="M 336 132 v 18 M 327 141 h 18" />
+    <path d="M 380 214 v 18 M 371 223 h 18" />
+  </g>
+
+  <!-- Scattered glyph marks --------------------------------------------- -->
+  <g stroke="currentColor" stroke-width="5" stroke-linecap="round" fill="none">
+    <!-- upper-right curves and ticks -->
+    <path d="M 320 118 q 10 -10 20 0" />
+    <path d="M 356 158 q 8 6 2 16" />
+    <path d="M 332 226 q 12 2 10 16" />
+    <path d="M 366 282 q 4 12 -8 16" />
+    <path d="M 344 336 q 10 6 4 18" />
+    <path d="M 320 384 q 8 8 0 16" />
+    <!-- vertical tick column, right of center -->
+    <path d="M 396 150 v 10" />
+    <path d="M 402 302 v 10" />
+  </g>
+
+  <g fill="currentColor">
+    <circle cx="300" cy="150" r="4" />
+    <circle cx="352" cy="252" r="4" />
+    <circle cx="368" cy="342" r="4" />
+    <circle cx="316" cy="410" r="4" />
+    <circle cx="262" cy="446" r="4" />
+    <circle cx="206" cy="416" r="4" />
+    <circle cx="166" cy="360" r="4" />
+    <circle cx="140" cy="300" r="4" />
+  </g>
+</svg>

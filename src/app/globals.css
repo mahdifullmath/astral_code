@@ -1,0 +1,107 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+  --font-display: "Orbitron", system-ui, sans-serif;
+  --font-body: "Inter", system-ui, sans-serif;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply bg-space-950 text-ink-soft font-body antialiased;
+    /* Subtle nebula wash behind everything */
+    background-image:
+      radial-gradient(ellipse 80% 50% at 20% -10%, rgba(109, 40, 217, 0.18), transparent),
+      radial-gradient(ellipse 60% 40% at 90% 10%, rgba(34, 211, 238, 0.08), transparent),
+      radial-gradient(ellipse 50% 60% at 50% 110%, rgba(234, 88, 12, 0.06), transparent);
+    background-attachment: fixed;
+  }
+  ::selection {
+    @apply bg-violet-neon/40 text-white;
+  }
+  :focus-visible {
+    @apply outline-none ring-2 ring-cyan-neon ring-offset-2 ring-offset-space-950;
+  }
+  [dir="rtl"] body {
+    font-feature-settings: "ss01";
+  }
+}
+
+@layer components {
+  .container-page {
+    @apply mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8;
+  }
+  .heading-display {
+    @apply font-display font-bold tracking-tight text-white;
+  }
+  .text-neon {
+    @apply bg-neon-text bg-clip-text text-transparent;
+    background-size: 200% auto;
+    animation: shimmer 6s linear infinite;
+  }
+  .card {
+    @apply rounded-2xl border border-white/10 bg-space-850/80 backdrop-blur-sm shadow-card;
+  }
+  .card-hover {
+    @apply transition-all duration-300 hover:border-violet-neon/50 hover:shadow-glow-violet;
+  }
+  .btn {
+    @apply inline-flex items-center justify-center gap-2 rounded-xl px-5 py-3 font-display text-sm font-semibold tracking-wide transition-all duration-200 disabled:cursor-not-allowed disabled:opacity-50;
+  }
+  .btn-primary {
+    @apply btn bg-gradient-to-r from-violet-deep via-violet-neon to-cyan-neon text-white shadow-glow-violet hover:brightness-125 hover:scale-[1.03];
+  }
+  .btn-fire {
+    @apply btn bg-gradient-to-r from-fire-deep via-fire-neon to-fire-glow text-space-950 shadow-glow-fire hover:brightness-110 hover:scale-[1.03];
+  }
+  .btn-ghost {
+    @apply btn border border-white/20 bg-white/5 text-white hover:border-cyan-neon/60 hover:shadow-glow-cyan;
+  }
+  .tag {
+    @apply inline-flex items-center rounded-full border border-cyan-neon/30 bg-cyan-neon/10 px-2.5 py-0.5 text-xs font-medium text-cyan-glow;
+  }
+  .input {
+    @apply w-full rounded-xl border border-white/10 bg-space-800/80 px-4 py-3 text-white placeholder:text-ink-faint transition focus:border-violet-neon/60 focus:shadow-glow-violet;
+  }
+  .coin-pill {
+    @apply inline-flex items-center gap-1.5 rounded-full border border-fire-neon/40 bg-fire-neon/10 px-3 py-1 font-display text-sm font-bold text-fire-glow;
+  }
+}
+
+@layer utilities {
+  .reveal {
+    opacity: 0;
+    transform: translateY(24px);
+    transition: opacity 0.7s ease, transform 0.7s ease;
+  }
+  .reveal.is-visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  .tilt {
+    transition: transform 0.25s ease;
+    transform-style: preserve-3d;
+  }
+  .glass {
+    @apply border border-white/10 bg-space-900/70 backdrop-blur-lg;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+  .reveal {
+    opacity: 1;
+    transform: none;
+  }
+}

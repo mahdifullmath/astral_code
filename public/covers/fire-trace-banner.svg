@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#050510"/><stop offset="1" stop-color="#0e0e28"/></linearGradient><radialGradient id="r" cx="0.7" cy="0.3" r="0.6"><stop offset="0" stop-color="#8b5cf6" stop-opacity="0.5"/><stop offset="1" stop-color="transparent"/></radialGradient></defs>
+<rect width="800" height="450" fill="url(#g)"/><rect width="800" height="450" fill="url(#r)"/>
+<circle cx="120" cy="110" r="3" fill="#fff" opacity=".8"/><circle cx="240" cy="200" r="2" fill="#67e8f9" opacity=".7"/><circle cx="600" cy="320" r="3" fill="#fdba74" opacity=".8"/><circle cx="680" cy="120" r="2" fill="#fff" opacity=".6"/><circle cx="420" cy="360" r="2.5" fill="#a78bfa" opacity=".7"/><circle cx="300" cy="90" r="2" fill="#fff" opacity=".5"/>
+<text x="40" y="410" font-family="Orbitron,sans-serif" font-size="30" fill="#a78bfa">fire-trace-banner</text>
+</svg>
