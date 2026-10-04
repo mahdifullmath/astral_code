@@ -6,6 +6,7 @@ import Footer from "@/components/Footer";
 import { getSession } from "@/lib/session";
 
 export const metadata: Metadata = {
+  icons: { icon: "/logo/icon.png", apple: "/logo/icon.png" },
   title: {
     default: "Astral Code — Play the Real World",
     template: "%s — Astral Code",

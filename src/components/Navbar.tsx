@@ -26,8 +26,14 @@ export default function Navbar({ user }: { user?: { username?: string; isAdmin?:
     <header className="sticky top-0 z-50 glass">
       <nav className="container-page flex items-center justify-between py-3" aria-label="Primary">
         <Link href="/" className="flex items-center gap-2" aria-label="Astral Code home">
-          <span className="text-neon font-display text-xl font-black">✦</span>
-          <span className="font-display text-lg font-bold tracking-wide text-white">Astral Code</span>
+          <img
+            src="/logo/logo1pirple_trim.png"
+            alt="Astral Code"
+            width={617}
+            height={737}
+            className="h-12 w-auto"
+            loading="eager"
+          />
         </Link>
 
         {/* Desktop nav */}
