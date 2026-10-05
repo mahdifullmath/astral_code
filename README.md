@@ -22,7 +22,7 @@ cp .env.example .env
 #   NEXTAUTH_SECRET — openssl rand -base64 32
 #   GAME_API_MASTER_KEY — any long random string
 #   GOOGLE_CLIENT_ID / GOOGLE_CLIENT_SECRET — optional, hides Google button if blank
-
+npx prisma generate
 # 3. Create + seed the database
 npm run db:push    # creates all tables
 npm run db:seed    # inserts demo admin, demo player, 3 games, achievements, shop items
