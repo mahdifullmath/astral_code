@@ -21,6 +21,13 @@ export default async function Home() {
       {/* Hero */}
       <section className="relative container-page py-24 md:py-32 text-center">
         <Reveal>
+          <img
+            src="/logo/logo.svg"
+            alt="Astral Code"
+            width={617}
+            height={737}
+            className="mx-auto mb-8 h-36 w-auto md:h-44"
+          />
           <h1 className="font-display text-5xl md:text-7xl font-black mb-4">
             <span className="text-neon">Astral Code</span>
           </h1>
