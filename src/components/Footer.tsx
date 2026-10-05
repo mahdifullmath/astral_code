@@ -16,7 +16,7 @@ export default function Footer() {
       <div className="container-page grid gap-8 sm:grid-cols-2 md:grid-cols-4">
         <div>
           <img
-            src="/logo/logo1pirple_trim.png"
+            src="/logo/logo.svg"
             alt="Astral Code"
             width={617}
             height={737}

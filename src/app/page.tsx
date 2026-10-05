@@ -22,7 +22,7 @@ export default async function Home() {
       <section className="relative container-page py-24 md:py-32 text-center">
         <Reveal>
           <img
-            src="/logo/logo1pirple_trim.png"
+            src="/logo/logo.svg"
             alt="Astral Code"
             width={617}
             height={737}

@@ -27,7 +27,7 @@ export default function Navbar({ user }: { user?: { username?: string; isAdmin?:
       <nav className="container-page flex items-center justify-between py-3" aria-label="Primary">
         <Link href="/" className="flex items-center gap-2" aria-label="Astral Code home">
           <img
-            src="/logo/logo1pirple_trim.png"
+            src="/logo/logo.svg"
             alt="Astral Code"
             width={617}
             height={737}
