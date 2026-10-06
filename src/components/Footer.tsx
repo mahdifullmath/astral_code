@@ -15,7 +15,14 @@ export default function Footer() {
     <footer className="mt-24 border-t border-white/10 py-10">
       <div className="container-page grid gap-8 sm:grid-cols-2 md:grid-cols-4">
         <div>
-          <div className="text-neon font-display text-lg font-black mb-3">✦ Astral Code</div>
+          <img
+            src="/logo/logo.svg"
+            alt="Astral Code"
+            width={617}
+            height={737}
+            className="mb-3 h-14 w-auto"
+            loading="lazy"
+          />
           <p className="text-sm text-ink-faint">{t("copyright", lang)}</p>
         </div>
         <div className="text-sm space-y-2">

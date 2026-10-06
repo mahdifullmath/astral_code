@@ -6,6 +6,7 @@ import Footer from "@/components/Footer";
 import { getSession } from "@/lib/session";
 
 export const metadata: Metadata = {
+  icons: { icon: { url: "/logo/icon.svg", type: "image/svg+xml" }, apple: { url: "/logo/icon.svg", type: "image/svg+xml" } },
   title: {
     default: "Astral Code — Play the Real World",
     template: "%s — Astral Code",
