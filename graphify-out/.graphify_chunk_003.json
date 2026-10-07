@@ -1,0 +1,430 @@
+{
+ "nodes": [
+  {
+   "id": "index_html",
+   "label": "Astral Code landing page",
+   "file_type": "document",
+   "source_file": "/sessions/dreamy-serene-ptolemy/mnt/astral_code/public/index.html",
+   "source_location": null,
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  },
+  {
+   "id": "backup_codes",
+   "label": "Google 2SV backup codes",
+   "file_type": "concept",
+   "source_file": "/sessions/dreamy-serene-ptolemy/mnt/astral_code/src/components/astralcode-fire-trace-refactored/Backup-codes-astralcode.event.txt",
+   "source_location": null,
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  },
+  {
+   "id": "ar_game_promo",
+   "label": "AR-game YouTube promo caption",
+   "file_type": "document",
+   "source_file": "/sessions/dreamy-serene-ptolemy/mnt/astral_code/src/components/astralcode-fire-trace-refactored/fire trace youtube/caption.txt",
+   "source_location": null,
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  },
+  {
+   "id": "fire_trace_youtube",
+   "label": "Fire-Trace YouTube walkthrough series",
+   "file_type": "document",
+   "source_file": "/sessions/dreamy-serene-ptolemy/mnt/astral_code/src/components/astralcode-fire-trace-refactored/fire trace youtube/marhale1/endings.txt",
+   "source_location": null,
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  },
+  {
+   "id": "screenshot_framing_explained",
+   "label": "Screenshot framing explained (stage1 endings)",
+   "file_type": "document",
+   "source_file": "/sessions/dreamy-serene-ptolemy/mnt/astral_code/src/components/astralcode-fire-trace-refactored/fire trace youtube/marhale1/endings.txt",
+   "source_location": null,
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  },
+  {
+   "id": "stage2_framing_note",
+   "label": "Stage-2 frame-up note (short)",
+   "file_type": "document",
+   "source_file": "/sessions/dreamy-serene-ptolemy/mnt/astral_code/src/components/astralcode-fire-trace-refactored/fire trace youtube/marhale2/New Text Document (2).txt",
+   "source_location": null,
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  },
+  {
+   "id": "stage2_walkthrough",
+   "label": "Stage-2 walkthrough (fake chat discovery)",
+   "file_type": "document",
+   "source_file": "/sessions/dreamy-serene-ptolemy/mnt/astral_code/src/components/astralcode-fire-trace-refactored/fire trace youtube/marhale2/New Text Document.txt",
+   "source_location": null,
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  },
+  {
+   "id": "stage2_caption_txt",
+   "label": "Stage-2 caption (Karim now suspect)",
+   "file_type": "document",
+   "source_file": "/sessions/dreamy-serene-ptolemy/mnt/astral_code/src/components/astralcode-fire-trace-refactored/fire trace youtube/marhale2/caption.txt",
+   "source_location": null,
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  },
+  {
+   "id": "detective_feedback",
+   "label": "Detective feedback (personal motive)",
+   "file_type": "document",
+   "source_file": "/sessions/dreamy-serene-ptolemy/mnt/astral_code/src/components/astralcode-fire-trace-refactored/fire trace youtube/marhale2/wrong.txt",
+   "source_location": null,
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  },
+  {
+   "id": "stage3_short_note",
+   "label": "Stage-3 short note",
+   "file_type": "document",
+   "source_file": "/sessions/dreamy-serene-ptolemy/mnt/astral_code/src/components/astralcode-fire-trace-refactored/fire trace youtube/marhale3/New Text Document (2).txt",
+   "source_location": null,
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  },
+  {
+   "id": "stage3_walkthrough",
+   "label": "Stage-3 walkthrough (QR, reversed audio, camera)",
+   "file_type": "document",
+   "source_file": "/sessions/dreamy-serene-ptolemy/mnt/astral_code/src/components/astralcode-fire-trace-refactored/fire trace youtube/marhale3/New Text Document.txt",
+   "source_location": null,
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  },
+  {
+   "id": "stage3_caption_txt",
+   "label": "Stage-3 caption (fingerprint + phone handover)",
+   "file_type": "document",
+   "source_file": "/sessions/dreamy-serene-ptolemy/mnt/astral_code/src/components/astralcode-fire-trace-refactored/fire trace youtube/marhale3/caption.txt",
+   "source_location": null,
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  },
+  {
+   "id": "ending_walkthrough",
+   "label": "Ending walkthrough (phone unlock, Instagram login)",
+   "file_type": "document",
+   "source_file": "/sessions/dreamy-serene-ptolemy/mnt/astral_code/src/components/astralcode-fire-trace-refactored/fire trace youtube/payan/New Text Document.txt",
+   "source_location": null,
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  },
+  {
+   "id": "tlshcgh_pdf",
+   "label": "Multilingual code-message PDF (cicada)",
+   "file_type": "paper",
+   "source_file": "/sessions/dreamy-serene-ptolemy/mnt/astral_code/Astralcode/Astralcode/cicada/t l h s e d a c h g h1.pdf",
+   "source_location": null,
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  },
+  {
+   "id": "interview1_pdf",
+   "label": "First Mahbod interview PDF",
+   "file_type": "paper",
+   "source_file": "/sessions/dreamy-serene-ptolemy/mnt/astral_code/Astralcode/Astralcode/اینستا/رد اتش/مرجله1/1مصاحبه.pdf",
+   "source_location": null,
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  },
+  {
+   "id": "interview_pdf_dup",
+   "label": "First Mahbod interview PDF (dup)",
+   "file_type": "paper",
+   "source_file": "/sessions/dreamy-serene-ptolemy/mnt/astral_code/Astralcode/Astralcode/اینستا/رد اتش/مرجله1/مصاحبه.pdf",
+   "source_location": null,
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  },
+  {
+   "id": "bazporsari_mahbod_red_pdf",
+   "label": "Red-flag Mahbod interrogation PDF",
+   "file_type": "paper",
+   "source_file": "/sessions/dreamy-serene-ptolemy/mnt/astral_code/Astralcode/Astralcode/اینستا/مرحله3/بازپرسی مهبد قرمز.pdf",
+   "source_location": null,
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  },
+  {
+   "id": "telephone_mary_pdf_empty",
+   "label": "Mary's phone PDF (empty)",
+   "file_type": "paper",
+   "source_file": "/sessions/dreamy-serene-ptolemy/mnt/astral_code/Astralcode/Astralcode/اینستا/مرحله3/تلفن همراه مریم.pdf",
+   "source_location": null,
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  },
+  {
+   "id": "khaterat_pdf",
+   "label": "Historian's memoirs PDF (Qajar treasure)",
+   "file_type": "paper",
+   "source_file": "/sessions/dreamy-serene-ptolemy/mnt/astral_code/Astralcode/Astralcode/معما/خاطرات .pdf",
+   "source_location": null,
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  },
+  {
+   "id": "stage2_pdf_short",
+   "label": "Stage-2 CCTV note PDF",
+   "file_type": "paper",
+   "source_file": "/sessions/dreamy-serene-ptolemy/mnt/astral_code/insta-rede-atash/insta/رد آتش/مرحله 2/---.pdf",
+   "source_location": null,
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  },
+  {
+   "id": "interview1_pdf_red",
+   "label": "First Mahbod interview PDF (red folder)",
+   "file_type": "paper",
+   "source_file": "/sessions/dreamy-serene-ptolemy/mnt/astral_code/insta-rede-atash/insta/رد آتش/مرحله1/1مصاحبه.pdf",
+   "source_location": null,
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  }
+ ],
+ "edges": [
+  {
+   "source": "index_html",
+   "target": "astral_code_studio",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/sessions/dreamy-serene-ptolemy/mnt/astral_code/public/index.html",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "fire_trace_youtube",
+   "target": "screenshot_framing_explained",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/sessions/dreamy-serene-ptolemy/mnt/astral_code/src/components/astralcode-fire-trace-refactored/fire trace youtube/marhale1/endings.txt",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "screenshot_framing_explained",
+   "target": "fake_chat_framing",
+   "relation": "references",
+   "confidence": "INFERRED",
+   "confidence_score": 0.85,
+   "source_file": "/sessions/dreamy-serene-ptolemy/mnt/astral_code/src/components/astralcode-fire-trace-refactored/fire trace youtube/marhale1/endings.txt",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "stage2_walkthrough",
+   "target": "fake_chat_framing",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/sessions/dreamy-serene-ptolemy/mnt/astral_code/src/components/astralcode-fire-trace-refactored/fire trace youtube/marhale2/New Text Document.txt",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "stage2_caption_txt",
+   "target": "karim_sareban",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/sessions/dreamy-serene-ptolemy/mnt/astral_code/src/components/astralcode-fire-trace-refactored/fire trace youtube/marhale2/caption.txt",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "detective_feedback",
+   "target": "mahbod_sarabi",
+   "relation": "references",
+   "confidence": "INFERRED",
+   "confidence_score": 0.85,
+   "source_file": "/sessions/dreamy-serene-ptolemy/mnt/astral_code/src/components/astralcode-fire-trace-refactored/fire trace youtube/marhale2/wrong.txt",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "stage3_walkthrough",
+   "target": "telegram_contact_clue",
+   "relation": "references",
+   "confidence": "INFERRED",
+   "confidence_score": 0.85,
+   "source_file": "/sessions/dreamy-serene-ptolemy/mnt/astral_code/src/components/astralcode-fire-trace-refactored/fire trace youtube/marhale3/New Text Document.txt",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "ending_walkthrough",
+   "target": "mary_phone_unlock",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/sessions/dreamy-serene-ptolemy/mnt/astral_code/src/components/astralcode-fire-trace-refactored/fire trace youtube/payan/New Text Document.txt",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "ending_walkthrough",
+   "target": "marys_sareban_page",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/sessions/dreamy-serene-ptolemy/mnt/astral_code/src/components/astralcode-fire-trace-refactored/fire trace youtube/payan/New Text Document.txt",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "tlshcgh_pdf",
+   "target": "telegram_contact_clue",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/sessions/dreamy-serene-ptolemy/mnt/astral_code/Astralcode/Astralcode/cicada/t l h s e d a c h g h1.pdf",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "interview1_pdf",
+   "target": "mahbod_sarabi",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/sessions/dreamy-serene-ptolemy/mnt/astral_code/Astralcode/Astralcode/اینستا/رد اتش/مرجله1/1مصاحبه.pdf",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "interview_pdf_dup",
+   "target": "mahbod_sarabi",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/sessions/dreamy-serene-ptolemy/mnt/astral_code/Astralcode/Astralcode/اینستا/رد اتش/مرجله1/مصاحبه.pdf",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "bazporsari_mahbod_red_pdf",
+   "target": "marys_sareban_page",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/sessions/dreamy-serene-ptolemy/mnt/astral_code/Astralcode/Astralcode/اینستا/مرحله3/بازپرسی مهبد قرمز.pdf",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "khaterat_pdf",
+   "target": "qajar_treasure_mystery",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/sessions/dreamy-serene-ptolemy/mnt/astral_code/Astralcode/Astralcode/معما/خاطرات .pdf",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "khaterat_pdf",
+   "target": "muhammad_alishah_letter",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/sessions/dreamy-serene-ptolemy/mnt/astral_code/Astralcode/Astralcode/معما/خاطرات .pdf",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "stage2_pdf_short",
+   "target": "karim_sareban",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/sessions/dreamy-serene-ptolemy/mnt/astral_code/insta-rede-atash/insta/رد آتش/مرحله 2/---.pdf",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "interview1_pdf_red",
+   "target": "mahbod_sarabi",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/sessions/dreamy-serene-ptolemy/mnt/astral_code/insta-rede-atash/insta/رد آتش/مرحله1/1مصاحبه.pdf",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "interview1_pdf",
+   "target": "converted_doc_interview1",
+   "relation": "semantically_similar_to",
+   "confidence": "INFERRED",
+   "confidence_score": 0.95,
+   "source_file": "/sessions/dreamy-serene-ptolemy/mnt/astral_code/Astralcode/Astralcode/اینستا/رد اتش/مرجله1/1مصاحبه.pdf",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "bazporsari_mahbod_red_pdf",
+   "target": "converted_doc_bazporsari_red",
+   "relation": "semantically_similar_to",
+   "confidence": "INFERRED",
+   "confidence_score": 0.95,
+   "source_file": "/sessions/dreamy-serene-ptolemy/mnt/astral_code/Astralcode/Astralcode/اینستا/مرحله3/بازپرسی مهبد قرمز.pdf",
+   "source_location": null,
+   "weight": 1.0
+  }
+ ],
+ "hyperedges": [],
+ "input_tokens": 0,
+ "output_tokens": 0
+}

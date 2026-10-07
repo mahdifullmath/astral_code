@@ -1,0 +1,568 @@
+{
+ "nodes": [
+  {
+   "id": "converted_doc_participants_d",
+   "label": "Participant table (dup)",
+   "file_type": "document",
+   "source_file": "/sessions/dreamy-serene-ptolemy/mnt/astral_code/graphify-out/converted/جدول شرکت کنندگان_ab32a0c8.md",
+   "source_location": null,
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  },
+  {
+   "id": "converted_doc_story_caption1",
+   "label": "Fire-Trace story caption (stage 1)",
+   "file_type": "document",
+   "source_file": "/sessions/dreamy-serene-ptolemy/mnt/astral_code/graphify-out/converted/داستان کپشن(مرحله۱)_130b1a59.md",
+   "source_location": null,
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  },
+  {
+   "id": "fire_trace_premise",
+   "label": "Fire-Trace: Isfahan house fire, 20yo girl",
+   "file_type": "concept",
+   "source_file": "/sessions/dreamy-serene-ptolemy/mnt/astral_code/graphify-out/converted/داستان کپشن(مرحله۱)_130b1a59.md",
+   "source_location": null,
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  },
+  {
+   "id": "converted_doc_cctv",
+   "label": "CCTV exonerates Karim Sareban",
+   "file_type": "document",
+   "source_file": "/sessions/dreamy-serene-ptolemy/mnt/astral_code/graphify-out/converted/دوربین مداربسته_3ebb02b7.md",
+   "source_location": null,
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  },
+  {
+   "id": "karim_sareban",
+   "label": "Karim Sareban (Mary's father)",
+   "file_type": "concept",
+   "source_file": "/sessions/dreamy-serene-ptolemy/mnt/astral_code/graphify-out/converted/دوربین مداربسته_3ebb02b7.md",
+   "source_location": null,
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  },
+  {
+   "id": "converted_doc_story_end1b",
+   "label": "Fire-Trace story wrap (stage 1)",
+   "file_type": "document",
+   "source_file": "/sessions/dreamy-serene-ptolemy/mnt/astral_code/graphify-out/converted/رد آتش استوری اتمام مرحله ۱_f80fa2d4.md",
+   "source_location": null,
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  },
+  {
+   "id": "converted_doc_cctv2",
+   "label": "CCTV text stage 2",
+   "file_type": "document",
+   "source_file": "/sessions/dreamy-serene-ptolemy/mnt/astral_code/graphify-out/converted/رد آتش متن دوربین مرحله۲_635b3bbe.md",
+   "source_location": null,
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  },
+  {
+   "id": "converted_doc_caption2",
+   "label": "Fire-Trace caption stage 2 (main suspect=Karim)",
+   "file_type": "document",
+   "source_file": "/sessions/dreamy-serene-ptolemy/mnt/astral_code/graphify-out/converted/رد آتش کپشن مرحله۲_d112afdd.md",
+   "source_location": null,
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  },
+  {
+   "id": "mary_room_locked",
+   "label": "Mary's room door was locked at fire time",
+   "file_type": "concept",
+   "source_file": "/sessions/dreamy-serene-ptolemy/mnt/astral_code/graphify-out/converted/رد آتش کپشن مرحله۲_d112afdd.md",
+   "source_location": null,
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  },
+  {
+   "id": "mazeroom_page",
+   "label": "@mazeroom.ir Instagram game page",
+   "file_type": "concept",
+   "source_file": "/sessions/dreamy-serene-ptolemy/mnt/astral_code/graphify-out/converted/رد آتش کپشن مرحله۲_d112afdd.md",
+   "source_location": null,
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  },
+  {
+   "id": "converted_doc_red_fire_trace",
+   "label": "Red Fire-Trace main doc",
+   "file_type": "document",
+   "source_file": "/sessions/dreamy-serene-ptolemy/mnt/astral_code/graphify-out/converted/رد آتش_87d42678.md",
+   "source_location": null,
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  },
+  {
+   "id": "converted_doc_red_caption_end",
+   "label": "Red Fire-Trace final caption",
+   "file_type": "document",
+   "source_file": "/sessions/dreamy-serene-ptolemy/mnt/astral_code/graphify-out/converted/رداتش کپشن مرحله اخر_f5ea9542.md",
+   "source_location": null,
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  },
+  {
+   "id": "fingerprint_match_mahbod",
+   "label": "Fingerprint confirms Mahbod wrote the papers",
+   "file_type": "concept",
+   "source_file": "/sessions/dreamy-serene-ptolemy/mnt/astral_code/graphify-out/converted/رداتش کپشن مرحله اخر_f5ea9542.md",
+   "source_location": null,
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  },
+  {
+   "id": "converted_doc_shoroo_game",
+   "label": "Game-start doc (Morse + Telegram link)",
+   "file_type": "document",
+   "source_file": "/sessions/dreamy-serene-ptolemy/mnt/astral_code/graphify-out/converted/شروع بازی_a3d04d4f.md",
+   "source_location": null,
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  },
+  {
+   "id": "morse_code_ciphers",
+   "label": "Morse-code puzzle ciphers",
+   "file_type": "concept",
+   "source_file": "/sessions/dreamy-serene-ptolemy/mnt/astral_code/graphify-out/converted/شروع بازی_a3d04d4f.md",
+   "source_location": null,
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  },
+  {
+   "id": "converted_doc_location",
+   "label": "Location-scramble doc",
+   "file_type": "document",
+   "source_file": "/sessions/dreamy-serene-ptolemy/mnt/astral_code/graphify-out/converted/لوکیشن_557e0952.md",
+   "source_location": null,
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  },
+  {
+   "id": "converted_doc_ring_text1",
+   "label": "Ring-inscription text (Morse)",
+   "file_type": "document",
+   "source_file": "/sessions/dreamy-serene-ptolemy/mnt/astral_code/graphify-out/converted/متن انگشتر_9681eea1.md",
+   "source_location": null,
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  },
+  {
+   "id": "converted_doc_ring_text2",
+   "label": "Ring-inscription text (Morse, v2)",
+   "file_type": "document",
+   "source_file": "/sessions/dreamy-serene-ptolemy/mnt/astral_code/graphify-out/converted/متن انگشتر_986a42f9.md",
+   "source_location": null,
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  },
+  {
+   "id": "ring_inscription_morse",
+   "label": "Ring Morse inscription",
+   "file_type": "concept",
+   "source_file": "/sessions/dreamy-serene-ptolemy/mnt/astral_code/graphify-out/converted/متن انگشتر_9681eea1.md",
+   "source_location": null,
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  },
+  {
+   "id": "converted_doc_morse1",
+   "label": "Initial Morse text v0",
+   "file_type": "document",
+   "source_file": "/sessions/dreamy-serene-ptolemy/mnt/astral_code/graphify-out/converted/متن اولیه مورس0_8eb53fa6.md",
+   "source_location": null,
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  },
+  {
+   "id": "converted_doc_morse2",
+   "label": "Initial Morse text v1",
+   "file_type": "document",
+   "source_file": "/sessions/dreamy-serene-ptolemy/mnt/astral_code/graphify-out/converted/متن اولیه مورس_3f44f56a.md",
+   "source_location": null,
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  },
+  {
+   "id": "converted_doc_morse3",
+   "label": "Initial Morse text v2",
+   "file_type": "document",
+   "source_file": "/sessions/dreamy-serene-ptolemy/mnt/astral_code/graphify-out/converted/متن اولیه مورس_88eb1770.md",
+   "source_location": null,
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  },
+  {
+   "id": "converted_doc_morse_initial",
+   "label": "Initial text (Persian+transliteration+Morse)",
+   "file_type": "document",
+   "source_file": "/sessions/dreamy-serene-ptolemy/mnt/astral_code/graphify-out/converted/متن اولیه1_6a9a45af.md",
+   "source_location": null,
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  },
+  {
+   "id": "constitutional_era_mystery",
+   "label": "Constitutional-era (Mashruteh) secret riddle",
+   "file_type": "concept",
+   "source_file": "/sessions/dreamy-serene-ptolemy/mnt/astral_code/graphify-out/converted/متن اولیه1_6a9a45af.md",
+   "source_location": null,
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  },
+  {
+   "id": "converted_doc_morse_v4",
+   "label": "Initial Morse text v4",
+   "file_type": "document",
+   "source_file": "/sessions/dreamy-serene-ptolemy/mnt/astral_code/graphify-out/converted/متن اولیه_4b5e72f2.md",
+   "source_location": null,
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  },
+  {
+   "id": "converted_doc_morse_v5",
+   "label": "Initial Morse text v5",
+   "file_type": "document",
+   "source_file": "/sessions/dreamy-serene-ptolemy/mnt/astral_code/graphify-out/converted/متن اولیه_78e04959.md",
+   "source_location": null,
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  },
+  {
+   "id": "converted_doc_voice1",
+   "label": "Store-owner's voice memos (dated)",
+   "file_type": "document",
+   "source_file": "/sessions/dreamy-serene-ptolemy/mnt/astral_code/graphify-out/converted/متن ویس ها_d14232f3.md",
+   "source_location": null,
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  },
+  {
+   "id": "qajar_treasure_search",
+   "label": "Treasure hunt across decades (Shah's letter)",
+   "file_type": "concept",
+   "source_file": "/sessions/dreamy-serene-ptolemy/mnt/astral_code/graphify-out/converted/متن ویس ها_d14232f3.md",
+   "source_location": null,
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  },
+  {
+   "id": "converted_doc_voice2",
+   "label": "Store-owner's voice memos (template)",
+   "file_type": "document",
+   "source_file": "/sessions/dreamy-serene-ptolemy/mnt/astral_code/graphify-out/converted/متن ویس ها_dc7341f0.md",
+   "source_location": null,
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  }
+ ],
+ "edges": [
+  {
+   "source": "converted_doc_participants_d",
+   "target": "puzzle_score_table",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/sessions/dreamy-serene-ptolemy/mnt/astral_code/graphify-out/converted/جدول شرکت کنندگان_ab32a0c8.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "converted_doc_story_caption1",
+   "target": "fire_trace_premise",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/sessions/dreamy-serene-ptolemy/mnt/astral_code/graphify-out/converted/داستان کپشن(مرحله۱)_130b1a59.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "fire_trace_premise",
+   "target": "mahbod_sarabi",
+   "relation": "references",
+   "confidence": "INFERRED",
+   "confidence_score": 0.85,
+   "source_file": "/sessions/dreamy-serene-ptolemy/mnt/astral_code/graphify-out/converted/داستان کپشن(مرحله۱)_130b1a59.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "converted_doc_cctv",
+   "target": "karim_sareban",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/sessions/dreamy-serene-ptolemy/mnt/astral_code/graphify-out/converted/دوربین مداربسته_3ebb02b7.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "converted_doc_cctv2",
+   "target": "karim_sareban",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/sessions/dreamy-serene-ptolemy/mnt/astral_code/graphify-out/converted/رد آتش متن دوربین مرحله۲_635b3bbe.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "converted_doc_caption2",
+   "target": "mary_room_locked",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/sessions/dreamy-serene-ptolemy/mnt/astral_code/graphify-out/converted/رد آتش کپشن مرحله۲_d112afdd.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "converted_doc_caption2",
+   "target": "karim_sareban",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/sessions/dreamy-serene-ptolemy/mnt/astral_code/graphify-out/converted/رد آتش کپشن مرحله۲_d112afdd.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "converted_doc_caption2",
+   "target": "mazeroom_page",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/sessions/dreamy-serene-ptolemy/mnt/astral_code/graphify-out/converted/رد آتش کپشن مرحله۲_d112afdd.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "converted_doc_red_caption_end",
+   "target": "fingerprint_match_mahbod",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/sessions/dreamy-serene-ptolemy/mnt/astral_code/graphify-out/converted/رداتش کپشن مرحله اخر_f5ea9542.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "fingerprint_match_mahbod",
+   "target": "mahbod_sarabi",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/sessions/dreamy-serene-ptolemy/mnt/astral_code/graphify-out/converted/رداتش کپشن مرحله اخر_f5ea9542.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "converted_doc_shoroo_game",
+   "target": "morse_code_ciphers",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/sessions/dreamy-serene-ptolemy/mnt/astral_code/graphify-out/converted/شروع بازی_a3d04d4f.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "converted_doc_shoroo_game",
+   "target": "telegram_contact_clue",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/sessions/dreamy-serene-ptolemy/mnt/astral_code/graphify-out/converted/شروع بازی_a3d04d4f.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "converted_doc_ring_text1",
+   "target": "ring_inscription_morse",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/sessions/dreamy-serene-ptolemy/mnt/astral_code/graphify-out/converted/متن انگشتر_9681eea1.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "converted_doc_ring_text2",
+   "target": "ring_inscription_morse",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/sessions/dreamy-serene-ptolemy/mnt/astral_code/graphify-out/converted/متن انگشتر_986a42f9.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "converted_doc_morse_initial",
+   "target": "constitutional_era_mystery",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/sessions/dreamy-serene-ptolemy/mnt/astral_code/graphify-out/converted/متن اولیه1_6a9a45af.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "constitutional_era_mystery",
+   "target": "qajar_treasure_mystery",
+   "relation": "semantically_similar_to",
+   "confidence": "INFERRED",
+   "confidence_score": 0.85,
+   "source_file": "/sessions/dreamy-serene-ptolemy/mnt/astral_code/graphify-out/converted/متن اولیه1_6a9a45af.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "converted_doc_voice1",
+   "target": "qajar_treasure_search",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/sessions/dreamy-serene-ptolemy/mnt/astral_code/graphify-out/converted/متن ویس ها_d14232f3.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "qajar_treasure_search",
+   "target": "qajar_treasure_mystery",
+   "relation": "semantically_similar_to",
+   "confidence": "INFERRED",
+   "confidence_score": 0.95,
+   "source_file": "/sessions/dreamy-serene-ptolemy/mnt/astral_code/graphify-out/converted/متن ویس ها_d14232f3.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "converted_doc_voice2",
+   "target": "qajar_treasure_search",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/sessions/dreamy-serene-ptolemy/mnt/astral_code/graphify-out/converted/متن ویس ها_dc7341f0.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "converted_doc_morse1",
+   "target": "morse_code_ciphers",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/sessions/dreamy-serene-ptolemy/mnt/astral_code/graphify-out/converted/متن اولیه مورس0_8eb53fa6.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "converted_doc_morse2",
+   "target": "morse_code_ciphers",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/sessions/dreamy-serene-ptolemy/mnt/astral_code/graphify-out/converted/متن اولیه مورس_3f44f56a.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "converted_doc_morse3",
+   "target": "morse_code_ciphers",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/sessions/dreamy-serene-ptolemy/mnt/astral_code/graphify-out/converted/متن اولیه مورس_88eb1770.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "converted_doc_morse_v4",
+   "target": "constitutional_era_mystery",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/sessions/dreamy-serene-ptolemy/mnt/astral_code/graphify-out/converted/متن اولیه_4b5e72f2.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "converted_doc_morse_v5",
+   "target": "constitutional_era_mystery",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/sessions/dreamy-serene-ptolemy/mnt/astral_code/graphify-out/converted/متن اولیه_78e04959.md",
+   "source_location": null,
+   "weight": 1.0
+  }
+ ],
+ "hyperedges": [],
+ "input_tokens": 0,
+ "output_tokens": 0
+}

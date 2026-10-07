@@ -12,3 +12,7 @@ coverage/
 next-env.d.ts
 tsconfig.tsbuildinfo
 src/generated/prisma/
+
+# graphify build artifacts & cache
+graphify-out/cache/
+
