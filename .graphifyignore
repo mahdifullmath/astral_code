@@ -1,0 +1,24 @@
+# audio/video files - excluded from graph build
+*.mp3
+*.wav
+*.m4a
+*.aac
+*.ogg
+*.flac
+*.wma
+*.opus
+*.mp4
+*.mov
+*.mkv
+*.avi
+*.webm
+*.sesx
+*.pkf
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.webp
+*.svg
+*.bmp
+*.psd

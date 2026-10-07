@@ -1,0 +1,301 @@
+{
+ "nodes": [
+  {
+   "id": "interview_pdf_mir",
+   "label": "First Mahbod interview PDF (miras folder)",
+   "file_type": "paper",
+   "source_file": "/sessions/dreamy-serene-ptolemy/mnt/astral_code/insta-rede-atash/insta/رد آتش/مرحله1/مصاحبه.pdf",
+   "source_location": null,
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  },
+  {
+   "id": "bazporsari_red_pdf_mir",
+   "label": "Red-flag Mahbod interrogation PDF (miras folder)",
+   "file_type": "paper",
+   "source_file": "/sessions/dreamy-serene-ptolemy/mnt/astral_code/insta-rede-atash/insta/رد آتش/مرحله3/بازپرسی مهبد قرمز.pdf",
+   "source_location": null,
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  },
+  {
+   "id": "telephone_mary_pdf_mir",
+   "label": "Mary's phone PDF (miras folder, empty)",
+   "file_type": "paper",
+   "source_file": "/sessions/dreamy-serene-ptolemy/mnt/astral_code/insta-rede-atash/insta/رد آتش/مرحله3/تلفن همراه مریم.pdf",
+   "source_location": null,
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  },
+  {
+   "id": "khaterat_pdf_mir",
+   "label": "Historian's memoirs PDF (miras-e-qajar root)",
+   "file_type": "paper",
+   "source_file": "/sessions/dreamy-serene-ptolemy/mnt/astral_code/miras-e-qajar-root/میراث قاجار/خاطرات .pdf",
+   "source_location": null,
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  },
+  {
+   "id": "qajar_mirza_letters",
+   "label": "Qajar-era Mīrzā correspondence (treasure trail)",
+   "file_type": "concept",
+   "source_file": "/sessions/dreamy-serene-ptolemy/mnt/astral_code/miras-e-qajar-root/میراث قاجار/خاطرات .pdf",
+   "source_location": null,
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  },
+  {
+   "id": "shoroo_game_pdf",
+   "label": "Game-start PDF (Morse + Telegram)",
+   "file_type": "paper",
+   "source_file": "/sessions/dreamy-serene-ptolemy/mnt/astral_code/miras-e-qajar-root/میراث قاجار/شروع بازی.pdf",
+   "source_location": null,
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  },
+  {
+   "id": "morse_initial_pdf",
+   "label": "Initial Morse text PDF",
+   "file_type": "paper",
+   "source_file": "/sessions/dreamy-serene-ptolemy/mnt/astral_code/miras-e-qajar-root/میراث قاجار/متن اولیه مورس.pdf",
+   "source_location": null,
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  },
+  {
+   "id": "telephone_mary_pdf_src",
+   "label": "Mary's phone PDF (src folder, empty)",
+   "file_type": "paper",
+   "source_file": "/sessions/dreamy-serene-ptolemy/mnt/astral_code/src/components/astralcode-fire-trace-refactored/fire trace youtube/marhale3/تلفن همراه مریم.pdf",
+   "source_location": null,
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  },
+  {
+   "id": "codlit_pdf",
+   "label": "'We want the best, not the followers' cipher PDF",
+   "file_type": "paper",
+   "source_file": "/sessions/dreamy-serene-ptolemy/mnt/astral_code/src/components/cicada/We want the best, not the followers.pdf",
+   "source_location": null,
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  },
+  {
+   "id": "tlshcgh_pdf_src",
+   "label": "Multilingual code-message PDF (src)",
+   "file_type": "paper",
+   "source_file": "/sessions/dreamy-serene-ptolemy/mnt/astral_code/src/components/cicada/t l h s e d a c h g h.pdf",
+   "source_location": null,
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  },
+  {
+   "id": "mahak_pdf",
+   "label": "Mahak charity payment gate PDF",
+   "file_type": "paper",
+   "source_file": "/sessions/dreamy-serene-ptolemy/mnt/astral_code/src/components/cicada/محک.pdf",
+   "source_location": null,
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  },
+  {
+   "id": "ring_text_pdf",
+   "label": "Ring-inscription Morse PDF",
+   "file_type": "paper",
+   "source_file": "/sessions/dreamy-serene-ptolemy/mnt/astral_code/src/components/متن انگشتر.pdf",
+   "source_location": null,
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  }
+ ],
+ "edges": [
+  {
+   "source": "interview_pdf_mir",
+   "target": "mahbod_sarabi",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/sessions/dreamy-serene-ptolemy/mnt/astral_code/insta-rede-atash/insta/رد آتش/مرحله1/مصاحبه.pdf",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "interview_pdf_mir",
+   "target": "converted_doc_interview1",
+   "relation": "semantically_similar_to",
+   "confidence": "INFERRED",
+   "confidence_score": 0.95,
+   "source_file": "/sessions/dreamy-serene-ptolemy/mnt/astral_code/insta-rede-atash/insta/رد آتش/مرحله1/مصاحبه.pdf",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "bazporsari_red_pdf_mir",
+   "target": "marys_sareban_page",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/sessions/dreamy-serene-ptolemy/mnt/astral_code/insta-rede-atash/insta/رد آتش/مرحله3/بازپرسی مهبد قرمز.pdf",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "bazporsari_red_pdf_mir",
+   "target": "converted_doc_bazporsari_red",
+   "relation": "semantically_similar_to",
+   "confidence": "INFERRED",
+   "confidence_score": 0.95,
+   "source_file": "/sessions/dreamy-serene-ptolemy/mnt/astral_code/insta-rede-atash/insta/رد آتش/مرحله3/بازپرسی مهبد قرمز.pdf",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "khaterat_pdf_mir",
+   "target": "qajar_mirza_letters",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/sessions/dreamy-serene-ptolemy/mnt/astral_code/miras-e-qajar-root/میراث قاجار/خاطرات .pdf",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "khaterat_pdf_mir",
+   "target": "qajar_treasure_mystery",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/sessions/dreamy-serene-ptolemy/mnt/astral_code/miras-e-qajar-root/میراث قاجار/خاطرات .pdf",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "khaterat_pdf_mir",
+   "target": "converted_doc_telegram_channel",
+   "relation": "semantically_similar_to",
+   "confidence": "INFERRED",
+   "confidence_score": 0.95,
+   "source_file": "/sessions/dreamy-serene-ptolemy/mnt/astral_code/miras-e-qajar-root/میراث قاجار/خاطرات .pdf",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "shoroo_game_pdf",
+   "target": "morse_code_ciphers",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/sessions/dreamy-serene-ptolemy/mnt/astral_code/miras-e-qajar-root/میراث قاجار/شروع بازی.pdf",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "shoroo_game_pdf",
+   "target": "telegram_contact_clue",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/sessions/dreamy-serene-ptolemy/mnt/astral_code/miras-e-qajar-root/میراث قاجار/شروع بازی.pdf",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "morse_initial_pdf",
+   "target": "morse_code_ciphers",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/sessions/dreamy-serene-ptolemy/mnt/astral_code/miras-e-qajar-root/میراث قاجار/متن اولیه مورس.pdf",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "codlit_pdf",
+   "target": "no_collaboration_rule",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/sessions/dreamy-serene-ptolemy/mnt/astral_code/src/components/cicada/We want the best, not the followers.pdf",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "tlshcgh_pdf_src",
+   "target": "telegram_contact_clue",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/sessions/dreamy-serene-ptolemy/mnt/astral_code/src/components/cicada/t l h s e d a c h g h.pdf",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "tlshcgh_pdf_src",
+   "target": "tlshcgh_pdf",
+   "relation": "semantically_similar_to",
+   "confidence": "INFERRED",
+   "confidence_score": 0.95,
+   "source_file": "/sessions/dreamy-serene-ptolemy/mnt/astral_code/src/components/cicada/t l h s e d a c h g h.pdf",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "mahak_pdf",
+   "target": "mahak_charity_account",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/sessions/dreamy-serene-ptolemy/mnt/astral_code/src/components/cicada/محک.pdf",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "ring_text_pdf",
+   "target": "ring_inscription_morse",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/sessions/dreamy-serene-ptolemy/mnt/astral_code/src/components/متن انگشتر.pdf",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "qajar_mirza_letters",
+   "target": "constitutional_era_mystery",
+   "relation": "conceptually_related_to",
+   "confidence": "INFERRED",
+   "confidence_score": 0.85,
+   "source_file": "/sessions/dreamy-serene-ptolemy/mnt/astral_code/miras-e-qajar-root/میراث قاجار/خاطرات .pdf",
+   "source_location": null,
+   "weight": 1.0
+  }
+ ],
+ "hyperedges": [],
+ "input_tokens": 0,
+ "output_tokens": 0
+}

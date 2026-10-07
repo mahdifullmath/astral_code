@@ -1,0 +1,537 @@
+{
+ "nodes": [
+  {
+   "id": "claude_md",
+   "label": "CLAUDE.md (graphify integration)",
+   "file_type": "document",
+   "source_file": "/sessions/dreamy-serene-ptolemy/mnt/astral_code/CLAUDE.md",
+   "source_location": null,
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  },
+  {
+   "id": "claude_md_graphify_rule",
+   "label": "graphify-first lookup rule",
+   "file_type": "concept",
+   "source_file": "/sessions/dreamy-serene-ptolemy/mnt/astral_code/CLAUDE.md",
+   "source_location": null,
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  },
+  {
+   "id": "readme",
+   "label": "Astral Code README",
+   "file_type": "document",
+   "source_file": "/sessions/dreamy-serene-ptolemy/mnt/astral_code/README.md",
+   "source_location": null,
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  },
+  {
+   "id": "astral_code_studio",
+   "label": "Astral Code AR Game Studio",
+   "file_type": "concept",
+   "source_file": "/sessions/dreamy-serene-ptolemy/mnt/astral_code/README.md",
+   "source_location": null,
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  },
+  {
+   "id": "nextjs_stack",
+   "label": "Next.js 16 + Tailwind + Prisma stack",
+   "file_type": "concept",
+   "source_file": "/sessions/dreamy-serene-ptolemy/mnt/astral_code/README.md",
+   "source_location": null,
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  },
+  {
+   "id": "astral_coins",
+   "label": "Astral Coins in-game currency",
+   "file_type": "concept",
+   "source_file": "/sessions/dreamy-serene-ptolemy/mnt/astral_code/README.md",
+   "source_location": null,
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  },
+  {
+   "id": "prisma_schema",
+   "label": "Prisma DB schema (13 models)",
+   "file_type": "concept",
+   "source_file": "/sessions/dreamy-serene-ptolemy/mnt/astral_code/README.md",
+   "source_location": null,
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  },
+  {
+   "id": "caption_html_fire_trace_premise",
+   "label": "Fire-Trace AR game: Isfahan house fire premise",
+   "file_type": "document",
+   "source_file": "/sessions/dreamy-serene-ptolemy/mnt/astral_code/Astralcode/Astralcode/اینستا/رد اتش/مرجله1/caption.html",
+   "source_location": null,
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  },
+  {
+   "id": "mahbod_sarabi",
+   "label": "Mahbod Sarabi (suspect)",
+   "file_type": "concept",
+   "source_file": "/sessions/dreamy-serene-ptolemy/mnt/astral_code/Astralcode/Astralcode/اینستا/رد اتش/مرجله1/cap13.html",
+   "source_location": null,
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  },
+  {
+   "id": "torn_paper_clue",
+   "label": "Torn paper scraps (clue)",
+   "file_type": "concept",
+   "source_file": "/sessions/dreamy-serene-ptolemy/mnt/astral_code/Astralcode/Astralcode/اینستا/رد اتش/مرجله1/cap12.html",
+   "source_location": null,
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  },
+  {
+   "id": "converted_doc_1000011",
+   "label": "Morse-code document (1000011)",
+   "file_type": "document",
+   "source_file": "/sessions/dreamy-serene-ptolemy/mnt/astral_code/graphify-out/converted/1000011_ceb0a981.md",
+   "source_location": null,
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  },
+  {
+   "id": "converted_doc_123",
+   "label": "Store-owner's diary (Document123)",
+   "file_type": "document",
+   "source_file": "/sessions/dreamy-serene-ptolemy/mnt/astral_code/graphify-out/converted/Document۱۲۳_cb793bc9.md",
+   "source_location": null,
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  },
+  {
+   "id": "qajar_treasure_mystery",
+   "label": "Qajar treasure (Moḥammad-ʿAlī Shāh's letter)",
+   "file_type": "concept",
+   "source_file": "/sessions/dreamy-serene-ptolemy/mnt/astral_code/graphify-out/converted/Document۱۲۳_cb793bc9.md",
+   "source_location": null,
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  },
+  {
+   "id": "converted_doc_ll",
+   "label": "Scrambled-letter cipher doc (ll)",
+   "file_type": "document",
+   "source_file": "/sessions/dreamy-serene-ptolemy/mnt/astral_code/graphify-out/converted/ll_6a547dac.md",
+   "source_location": null,
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  },
+  {
+   "id": "converted_doc_tlshcgh",
+   "label": "Multilingual code message doc",
+   "file_type": "document",
+   "source_file": "/sessions/dreamy-serene-ptolemy/mnt/astral_code/graphify-out/converted/t l h s e d a c h g h_a69cf5d6.md",
+   "source_location": null,
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  },
+  {
+   "id": "telegram_contact_clue",
+   "label": "Telegram safe-channel clue",
+   "file_type": "concept",
+   "source_file": "/sessions/dreamy-serene-ptolemy/mnt/astral_code/graphify-out/converted/t l h s e d a c h g h_a69cf5d6.md",
+   "source_location": null,
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  },
+  {
+   "id": "converted_doc_story_end1",
+   "label": "Story wrap-up ep 1 (fake chats revealed)",
+   "file_type": "document",
+   "source_file": "/sessions/dreamy-serene-ptolemy/mnt/astral_code/graphify-out/converted/استوری اتمام ۱_c0669ea1.md",
+   "source_location": null,
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  },
+  {
+   "id": "fake_chat_framing",
+   "label": "Forged Instagram chat framing (frame-up)",
+   "file_type": "concept",
+   "source_file": "/sessions/dreamy-serene-ptolemy/mnt/astral_code/graphify-out/converted/استوری اتمام ۱_c0669ea1.md",
+   "source_location": null,
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  },
+  {
+   "id": "converted_doc_confession",
+   "label": "Mahbod's confession transcript",
+   "file_type": "document",
+   "source_file": "/sessions/dreamy-serene-ptolemy/mnt/astral_code/graphify-out/converted/اعتراف_f44be866.md",
+   "source_location": null,
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  },
+  {
+   "id": "mahbod_confession",
+   "label": "Mahbod admits arson motive (revenge/love)",
+   "file_type": "concept",
+   "source_file": "/sessions/dreamy-serene-ptolemy/mnt/astral_code/graphify-out/converted/اعتراف_f44be866.md",
+   "source_location": null,
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  },
+  {
+   "id": "converted_doc_bazporsari_red",
+   "label": "Red-flag Mahbod interrogation (v2)",
+   "file_type": "document",
+   "source_file": "/sessions/dreamy-serene-ptolemy/mnt/astral_code/graphify-out/converted/بازپرسی مهبد قرمز_5a5f02c9.md",
+   "source_location": null,
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  },
+  {
+   "id": "marys_sareban_page",
+   "label": "@marysareban Instagram page",
+   "file_type": "concept",
+   "source_file": "/sessions/dreamy-serene-ptolemy/mnt/astral_code/graphify-out/converted/بازپرسی مهبد قرمز_5a5f02c9.md",
+   "source_location": null,
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  },
+  {
+   "id": "converted_doc_bazporsari_v1",
+   "label": "Mahbod interrogation v1",
+   "file_type": "document",
+   "source_file": "/sessions/dreamy-serene-ptolemy/mnt/astral_code/graphify-out/converted/بازپرسی مهبد_8d3cea10.md",
+   "source_location": null,
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  },
+  {
+   "id": "converted_doc_bazporsari_v3",
+   "label": "Mahbod interrogation v3",
+   "file_type": "document",
+   "source_file": "/sessions/dreamy-serene-ptolemy/mnt/astral_code/graphify-out/converted/بازپرسی مهبد_e0d99c07.md",
+   "source_location": null,
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  },
+  {
+   "id": "converted_doc_participants_final1",
+   "label": "Participant table (final, scored)",
+   "file_type": "document",
+   "source_file": "/sessions/dreamy-serene-ptolemy/mnt/astral_code/graphify-out/converted/جدول شرکت کنندگان نهایی_90a63983.md",
+   "source_location": null,
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  },
+  {
+   "id": "puzzle_score_table",
+   "label": "Puzzle-scorer ranking table",
+   "file_type": "concept",
+   "source_file": "/sessions/dreamy-serene-ptolemy/mnt/astral_code/graphify-out/converted/جدول شرکت کنندگان نهایی_90a63983.md",
+   "source_location": null,
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  },
+  {
+   "id": "converted_doc_participants_final2",
+   "label": "Participant table (final dup)",
+   "file_type": "document",
+   "source_file": "/sessions/dreamy-serene-ptolemy/mnt/astral_code/graphify-out/converted/جدول شرکت کنندگان نهایی_fec1f894.md",
+   "source_location": null,
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  },
+  {
+   "id": "converted_doc_participants",
+   "label": "Participant table (unscored)",
+   "file_type": "document",
+   "source_file": "/sessions/dreamy-serene-ptolemy/mnt/astral_code/graphify-out/converted/جدول شرکت کنندگان_7345c415.md",
+   "source_location": null,
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  }
+ ],
+ "edges": [
+  {
+   "source": "claude_md",
+   "target": "claude_md_graphify_rule",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/sessions/dreamy-serene-ptolemy/mnt/astral_code/CLAUDE.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "readme",
+   "target": "astral_code_studio",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/sessions/dreamy-serene-ptolemy/mnt/astral_code/README.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "astral_code_studio",
+   "target": "nextjs_stack",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/sessions/dreamy-serene-ptolemy/mnt/astral_code/README.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "astral_code_studio",
+   "target": "astral_coins",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/sessions/dreamy-serene-ptolemy/mnt/astral_code/README.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "astral_code_studio",
+   "target": "prisma_schema",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/sessions/dreamy-serene-ptolemy/mnt/astral_code/README.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "caption_html_fire_trace_premise",
+   "target": "mahbod_sarabi",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/sessions/dreamy-serene-ptolemy/mnt/astral_code/Astralcode/Astralcode/اینستا/رد اتش/مرجله1/caption.html",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "caption_html_fire_trace_premise",
+   "target": "torn_paper_clue",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/sessions/dreamy-serene-ptolemy/mnt/astral_code/Astralcode/Astralcode/اینستا/رد اتش/مرجله1/caption.html",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "converted_doc_123",
+   "target": "qajar_treasure_mystery",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/sessions/dreamy-serene-ptolemy/mnt/astral_code/graphify-out/converted/Document۱۲۳_cb793bc9.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "converted_doc_tlshcgh",
+   "target": "telegram_contact_clue",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/sessions/dreamy-serene-ptolemy/mnt/astral_code/graphify-out/converted/t l h s e d a c h g h_a69cf5d6.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "converted_doc_story_end1",
+   "target": "fake_chat_framing",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/sessions/dreamy-serene-ptolemy/mnt/astral_code/graphify-out/converted/استوری اتمام ۱_c0669ea1.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "fake_chat_framing",
+   "target": "mahbod_sarabi",
+   "relation": "references",
+   "confidence": "INFERRED",
+   "confidence_score": 0.85,
+   "source_file": "/sessions/dreamy-serene-ptolemy/mnt/astral_code/graphify-out/converted/استوری اتمام ۱_c0669ea1.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "converted_doc_confession",
+   "target": "mahbod_confession",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/sessions/dreamy-serene-ptolemy/mnt/astral_code/graphify-out/converted/اعتراف_f44be866.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "mahbod_confession",
+   "target": "mahbod_sarabi",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/sessions/dreamy-serene-ptolemy/mnt/astral_code/graphify-out/converted/اعتراف_f44be866.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "converted_doc_bazporsari_red",
+   "target": "marys_sareban_page",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/sessions/dreamy-serene-ptolemy/mnt/astral_code/graphify-out/converted/بازپرسی مهبد قرمز_5a5f02c9.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "converted_doc_bazporsari_v1",
+   "target": "mahbod_sarabi",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/sessions/dreamy-serene-ptolemy/mnt/astral_code/graphify-out/converted/بازپرسی مهبد_8d3cea10.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "converted_doc_bazporsari_v3",
+   "target": "mahbod_sarabi",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/sessions/dreamy-serene-ptolemy/mnt/astral_code/graphify-out/converted/بازپرسی مهبد_e0d99c07.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "converted_doc_bazporsari_red",
+   "target": "mahbod_sarabi",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/sessions/dreamy-serene-ptolemy/mnt/astral_code/graphify-out/converted/بازپرسی مهبد قرمز_5a5f02c9.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "converted_doc_bazporsari_v1",
+   "target": "converted_doc_bazporsari_v3",
+   "relation": "semantically_similar_to",
+   "confidence": "INFERRED",
+   "confidence_score": 0.95,
+   "source_file": "/sessions/dreamy-serene-ptolemy/mnt/astral_code/graphify-out/converted/بازپرسی مهبد_8d3cea10.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "converted_doc_participants_final1",
+   "target": "puzzle_score_table",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/sessions/dreamy-serene-ptolemy/mnt/astral_code/graphify-out/converted/جدول شرکت کنندگان نهایی_90a63983.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "converted_doc_participants_final2",
+   "target": "puzzle_score_table",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/sessions/dreamy-serene-ptolemy/mnt/astral_code/graphify-out/converted/جدول شرکت کنندگان نهایی_fec1f894.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "converted_doc_participants",
+   "target": "puzzle_score_table",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/sessions/dreamy-serene-ptolemy/mnt/astral_code/graphify-out/converted/جدول شرکت کنندگان_7345c415.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "converted_doc_participants_final1",
+   "target": "converted_doc_participants_final2",
+   "relation": "semantically_similar_to",
+   "confidence": "INFERRED",
+   "confidence_score": 0.95,
+   "source_file": "/sessions/dreamy-serene-ptolemy/mnt/astral_code/graphify-out/converted/جدول شرکت کنندگان نهایی_90a63983.md",
+   "source_location": null,
+   "weight": 1.0
+  }
+ ],
+ "hyperedges": [],
+ "input_tokens": 0,
+ "output_tokens": 0
+}

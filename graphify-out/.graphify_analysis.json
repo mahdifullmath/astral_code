@@ -1,0 +1,626 @@
+{
+  "communities": {
+    "0": [
+      "prisma_seed",
+      "prisma_seed_adapter",
+      "prisma_seed_c",
+      "prisma_seed_main",
+      "prisma_seed_prisma",
+      "ref_bcryptjs",
+      "ref_crypto",
+      "ref_next",
+      "ref_prisma_adapter_pg",
+      "ref_zod",
+      "src_app_api_admin_games_route",
+      "src_app_api_admin_games_route_get",
+      "src_app_api_admin_games_route_post",
+      "src_app_api_admin_users_route",
+      "src_app_api_admin_users_route_get",
+      "src_app_api_auth_register_route",
+      "src_app_api_auth_register_route_post",
+      "src_app_api_auth_register_route_schema",
+      "src_app_api_auth_reset_password_route",
+      "src_app_api_auth_reset_password_route_post",
+      "src_app_api_auth_reset_password_route_schema",
+      "src_app_api_auth_reset_request_route",
+      "src_app_api_auth_reset_request_route_post",
+      "src_app_api_auth_verify_route",
+      "src_app_api_auth_verify_route_get",
+      "src_app_api_coins_award_route",
+      "src_app_api_coins_award_route_daily_cap",
+      "src_app_api_coins_award_route_max_dur",
+      "src_app_api_coins_award_route_min_dur",
+      "src_app_api_coins_award_route_post",
+      "src_app_api_contact_route",
+      "src_app_api_contact_route_post",
+      "src_app_api_contact_route_schema",
+      "src_app_api_session_route",
+      "src_app_api_session_route_get",
+      "src_app_api_shop_buy_route",
+      "src_app_api_shop_buy_route_post",
+      "src_app_api_shop_route",
+      "src_app_api_shop_route_get",
+      "src_app_dashboard_page",
+      "src_app_dashboard_page_dashboard",
+      "src_app_dashboard_page_dynamic",
+      "src_app_dashboard_page_metadata",
+      "src_generated_prisma_client",
+      "src_generated_prisma_client_prismaclient",
+      "src_lib_auth",
+      "src_lib_auth_apierror",
+      "src_lib_auth_apierror_constructor",
+      "src_lib_auth_authoptions",
+      "src_lib_auth_authuser",
+      "src_lib_db",
+      "src_lib_db_adapter",
+      "src_lib_db_prisma",
+      "src_lib_session",
+      "src_lib_session_getsession",
+      "src_lib_session_requireadmin",
+      "src_lib_session_sessionuser"
+    ],
+    "1": [
+      "src_app_about_page",
+      "src_app_about_page_about",
+      "src_app_about_page_metadata",
+      "src_app_admin_adminpanels",
+      "src_app_admin_adminpanels_admingames",
+      "src_app_admin_adminpanels_admingames_save",
+      "src_app_admin_adminpanels_adminusers",
+      "src_app_admin_page",
+      "src_app_admin_page_admin",
+      "src_app_admin_page_dynamic",
+      "src_app_admin_page_metadata",
+      "src_app_games_page",
+      "src_app_games_page_dynamic",
+      "src_app_games_page_games",
+      "src_app_games_page_metadata",
+      "src_app_games_slug_page",
+      "src_app_games_slug_page_dynamic",
+      "src_app_games_slug_page_gamedetail",
+      "src_app_games_slug_page_props",
+      "src_app_leaderboard_page",
+      "src_app_leaderboard_page_dynamic",
+      "src_app_leaderboard_page_leaderboard",
+      "src_app_leaderboard_page_metadata",
+      "src_app_leaderboard_page_pergameboard",
+      "src_app_page",
+      "src_app_page_dynamic",
+      "src_app_page_home",
+      "src_components_gamecard",
+      "src_components_gamecard_gamecard",
+      "src_components_reveal",
+      "src_components_reveal_reveal",
+      "src_lib_games",
+      "src_lib_games_gamerow",
+      "src_lib_games_gameviewmodel",
+      "src_lib_games_getgamebyslug",
+      "src_lib_games_listgames",
+      "src_lib_games_togameviewmodel",
+      "src_lib_i18n",
+      "src_lib_i18n_getlang",
+      "src_lib_i18n_t"
+    ],
+    "2": [
+      "package",
+      "package_description",
+      "package_name",
+      "package_prisma",
+      "package_prisma_seed",
+      "package_private",
+      "package_scripts",
+      "package_scripts_build",
+      "package_scripts_db_generate",
+      "package_scripts_db_migrate",
+      "package_scripts_db_push",
+      "package_scripts_db_seed",
+      "package_scripts_db_studio",
+      "package_scripts_dev",
+      "package_scripts_lint",
+      "package_scripts_start",
+      "package_version",
+      "prisma_config",
+      "ref_autoprefixer",
+      "ref_pg",
+      "ref_postcss",
+      "ref_prisma",
+      "ref_prisma_client",
+      "ref_react_dom",
+      "ref_tailwindcss",
+      "ref_tsx",
+      "ref_types_bcryptjs",
+      "ref_types_node",
+      "ref_types_react",
+      "ref_types_react_dom",
+      "ref_typescript",
+      "tailwind_config",
+      "tailwind_config_config"
+    ],
+    "3": [
+      "ref_react",
+      "src_app_contact_page",
+      "src_app_contact_page_contact",
+      "src_app_contact_page_contact_submit",
+      "src_app_login_page",
+      "src_app_login_page_login",
+      "src_app_login_page_login_submit",
+      "src_app_register_page",
+      "src_app_register_page_register",
+      "src_app_register_page_register_submit",
+      "src_app_reset_password_page",
+      "src_app_reset_password_page_inner",
+      "src_app_reset_password_page_inner_request",
+      "src_app_reset_password_page_inner_setnew",
+      "src_app_reset_password_page_page",
+      "src_app_shop_page",
+      "src_app_shop_page_cosmetic",
+      "src_app_shop_page_shop",
+      "src_app_shop_page_shop_buy",
+      "src_app_shop_page_shop_load",
+      "src_app_verify_email_page",
+      "src_app_verify_email_page_inner",
+      "src_app_verify_email_page_page",
+      "src_components_starfield",
+      "src_components_starfield_starfield",
+      "src_lib_i18n_client",
+      "src_lib_i18n_client_subscribe",
+      "src_lib_i18n_client_uselang",
+      "src_lib_i18n_dict"
+    ],
+    "4": [
+      "astralcode_astralcode_اینستا_رد_اتش_مرجله1_caption_html_fire_trace_premise",
+      "converted_doc_bazporsari_v1",
+      "converted_doc_bazporsari_v3",
+      "converted_doc_chats_mary_mahbod1",
+      "converted_doc_chats_mary_mahbod2",
+      "converted_doc_chats_mary_mahbod3",
+      "converted_doc_confession",
+      "converted_doc_interview1",
+      "converted_doc_interview2",
+      "converted_doc_red_caption_end",
+      "converted_doc_story_caption1",
+      "converted_doc_story_end1",
+      "detective_feedback",
+      "fake_chat_framing",
+      "fingerprint_match_mahbod",
+      "fire_trace_premise",
+      "fire_trace_youtube",
+      "interview1_pdf",
+      "interview1_pdf_red",
+      "interview_pdf_dup",
+      "interview_pdf_mir",
+      "mahbod_confession",
+      "mahbod_sarabi",
+      "mary_pregnancy_threat",
+      "mary_sareban",
+      "screenshot_framing_explained",
+      "stage2_walkthrough",
+      "torn_paper_clue"
+    ],
+    "5": [
+      "tsconfig",
+      "tsconfig_compileroptions",
+      "tsconfig_compileroptions_allowjs",
+      "tsconfig_compileroptions_esmoduleinterop",
+      "tsconfig_compileroptions_incremental",
+      "tsconfig_compileroptions_isolatedmodules",
+      "tsconfig_compileroptions_jsx",
+      "tsconfig_compileroptions_lib",
+      "tsconfig_compileroptions_module",
+      "tsconfig_compileroptions_moduleresolution",
+      "tsconfig_compileroptions_noemit",
+      "tsconfig_compileroptions_paths",
+      "tsconfig_compileroptions_plugins",
+      "tsconfig_compileroptions_resolvejsonmodule",
+      "tsconfig_compileroptions_skiplibcheck",
+      "tsconfig_compileroptions_strict",
+      "tsconfig_compileroptions_target",
+      "tsconfig_exclude",
+      "tsconfig_include"
+    ],
+    "6": [
+      "ref_next_auth",
+      "src_app_api_auth_nextauth_route",
+      "src_app_api_auth_nextauth_route_get",
+      "src_app_api_auth_nextauth_route_handler",
+      "src_app_api_auth_nextauth_route_post",
+      "src_app_globals",
+      "src_app_layout",
+      "src_app_layout_metadata",
+      "src_app_layout_rootlayout",
+      "src_components_footer",
+      "src_components_footer_footer",
+      "src_components_footer_socials",
+      "src_components_navbar",
+      "src_components_navbar_links",
+      "src_components_navbar_navbar",
+      "src_lib_i18n_client_setlang",
+      "src_lib_i18n_lang",
+      "src_lib_i18n_setlang"
+    ],
+    "7": [
+      "constitutional_era_mystery",
+      "converted_doc_123",
+      "converted_doc_morse_initial",
+      "converted_doc_morse_v4",
+      "converted_doc_morse_v5",
+      "converted_doc_telegram_channel",
+      "converted_doc_voice1",
+      "converted_doc_voice2",
+      "khaterat_pdf",
+      "khaterat_pdf_mir",
+      "muhammad_alishah_letter",
+      "qajar_mirza_letters",
+      "qajar_treasure_historian",
+      "qajar_treasure_mystery",
+      "qajar_treasure_search",
+      "world_queen_letter"
+    ],
+    "8": [
+      "converted_doc_caption2",
+      "converted_doc_caption_stage2",
+      "converted_doc_cctv",
+      "converted_doc_cctv2",
+      "converted_doc_interview4",
+      "converted_doc_suspect3",
+      "fire_scene_witness",
+      "karim_sareban",
+      "mary_room_locked",
+      "mazeroom_page",
+      "mehri_sareban",
+      "stage2_caption_txt",
+      "stage2_pdf_short"
+    ],
+    "9": [
+      "converted_doc_morse1",
+      "converted_doc_morse2",
+      "converted_doc_morse3",
+      "converted_doc_shoroo_game",
+      "converted_doc_tlshcgh",
+      "morse_code_ciphers",
+      "morse_initial_pdf",
+      "shoroo_game_pdf",
+      "stage3_walkthrough",
+      "telegram_contact_clue",
+      "tlshcgh_pdf",
+      "tlshcgh_pdf_src"
+    ],
+    "10": [
+      "package_devdependencies",
+      "package_devdependencies_autoprefixer",
+      "package_devdependencies_postcss",
+      "package_devdependencies_prisma",
+      "package_devdependencies_tailwindcss",
+      "package_devdependencies_tsx",
+      "package_devdependencies_types_bcryptjs",
+      "package_devdependencies_types_node",
+      "package_devdependencies_types_react",
+      "package_devdependencies_types_react_dom",
+      "package_devdependencies_typescript"
+    ],
+    "11": [
+      "package_dependencies",
+      "package_dependencies_bcryptjs",
+      "package_dependencies_next",
+      "package_dependencies_next_auth",
+      "package_dependencies_pg",
+      "package_dependencies_prisma_adapter_pg",
+      "package_dependencies_prisma_client",
+      "package_dependencies_react",
+      "package_dependencies_react_dom",
+      "package_dependencies_zod"
+    ],
+    "12": [
+      "bazporsari_mahbod_red_pdf",
+      "bazporsari_red_pdf_mir",
+      "converted_doc_bazporsari_red",
+      "converted_doc_karim1",
+      "converted_doc_karim2",
+      "ending_walkthrough",
+      "mary_phone_unlock",
+      "marys_sareban_page"
+    ],
+    "13": [
+      "astral_code_studio",
+      "astral_coins",
+      "nextjs_stack",
+      "prisma_schema",
+      "public_index_html",
+      "readme"
+    ],
+    "14": [
+      "converted_doc_participants",
+      "converted_doc_participants_d",
+      "converted_doc_participants_final1",
+      "converted_doc_participants_final2",
+      "puzzle_score_table"
+    ],
+    "15": [
+      "cicada_missing_puzzles",
+      "converted_doc_cicada_voice1",
+      "converted_doc_nahayi",
+      "user_3301"
+    ],
+    "16": [
+      "codlit_pdf",
+      "converted_doc_codlit1",
+      "converted_doc_codlit2",
+      "no_collaboration_rule"
+    ],
+    "17": [
+      "converted_doc_mahak1",
+      "converted_doc_mahak2",
+      "mahak_charity_account",
+      "mahak_pdf"
+    ],
+    "18": [
+      "converted_doc_ring_text1",
+      "converted_doc_ring_text2",
+      "ring_inscription_morse",
+      "ring_text_pdf"
+    ],
+    "19": [
+      "converted_doc_interview_historian",
+      "muhammad_ali_shah",
+      "muhammad_حسن_mirza"
+    ],
+    "20": [
+      "next",
+      "next_config",
+      "next_config_nextconfig"
+    ],
+    "21": [
+      "postcss_config",
+      "postcss_config_config",
+      "postcss_load_config"
+    ],
+    "22": [
+      "src_app_privacy_page",
+      "src_app_privacy_page_metadata",
+      "src_app_privacy_page_privacy"
+    ],
+    "23": [
+      "src_app_terms_page",
+      "src_app_terms_page_metadata",
+      "src_app_terms_page_terms"
+    ],
+    "24": [
+      "brud_gaming",
+      "public_about_page"
+    ],
+    "25": [
+      "claude_md",
+      "claude_md_graphify_rule"
+    ],
+    "26": [
+      "ar_game_promo"
+    ],
+    "27": [
+      "backup_codes"
+    ],
+    "28": [
+      "converted_doc_1000011"
+    ],
+    "29": [
+      "converted_doc_ll"
+    ],
+    "30": [
+      "converted_doc_location"
+    ],
+    "31": [
+      "converted_doc_mowqeeyat"
+    ],
+    "32": [
+      "converted_doc_red_fire_trace"
+    ],
+    "33": [
+      "converted_doc_story_end1b"
+    ],
+    "34": [
+      "stage2_framing_note"
+    ],
+    "35": [
+      "stage3_caption_txt"
+    ],
+    "36": [
+      "stage3_short_note"
+    ],
+    "37": [
+      "telephone_mary_pdf_empty"
+    ],
+    "38": [
+      "telephone_mary_pdf_mir"
+    ],
+    "39": [
+      "telephone_mary_pdf_src"
+    ]
+  },
+  "cohesion": {
+    "0": 0.06641604010025062,
+    "1": 0.12564102564102564,
+    "2": 0.06060606060606061,
+    "3": 0.16995073891625614,
+    "4": 0.0873015873015873,
+    "5": 0.10526315789473684,
+    "6": 0.16339869281045752,
+    "7": 0.14166666666666666,
+    "8": 0.15384615384615385,
+    "9": 0.19696969696969696,
+    "10": 0.18181818181818182,
+    "11": 0.2,
+    "12": 0.32142857142857145,
+    "13": 0.3333333333333333,
+    "14": 0.5,
+    "15": 0.5,
+    "16": 0.5,
+    "17": 0.5,
+    "18": 0.5,
+    "19": 0.6666666666666666,
+    "20": 0.6666666666666666,
+    "21": 0.6666666666666666,
+    "22": 0.6666666666666666,
+    "23": 0.6666666666666666,
+    "24": 1.0,
+    "25": 1.0,
+    "26": 1.0,
+    "27": 1.0,
+    "28": 1.0,
+    "29": 1.0,
+    "30": 1.0,
+    "31": 1.0,
+    "32": 1.0,
+    "33": 1.0,
+    "34": 1.0,
+    "35": 1.0,
+    "36": 1.0,
+    "37": 1.0,
+    "38": 1.0,
+    "39": 1.0
+  },
+  "gods": [
+    {
+      "id": "src_components_starfield_starfield",
+      "label": "Starfield()",
+      "degree": 27
+    },
+    {
+      "id": "ref_next",
+      "label": "next",
+      "degree": 26
+    },
+    {
+      "id": "src_components_reveal_reveal",
+      "label": "Reveal()",
+      "degree": 19
+    },
+    {
+      "id": "src_lib_i18n_client_uselang",
+      "label": "useLang()",
+      "degree": 19
+    },
+    {
+      "id": "src_lib_i18n_getlang",
+      "label": "getLang()",
+      "degree": 17
+    },
+    {
+      "id": "tsconfig_compileroptions",
+      "label": "compilerOptions",
+      "degree": 16
+    },
+    {
+      "id": "mahbod_sarabi",
+      "label": "Mahbod Sarabi (suspect)",
+      "degree": 16
+    },
+    {
+      "id": "src_lib_db_prisma",
+      "label": "prisma",
+      "degree": 15
+    },
+    {
+      "id": "src_lib_session_getsession",
+      "label": "getSession()",
+      "degree": 14
+    },
+    {
+      "id": "src_lib_i18n_dict",
+      "label": "dict",
+      "degree": 13
+    }
+  ],
+  "surprises": [
+    {
+      "source": "First Mahbod interview PDF",
+      "target": "Mahbod first interview (1395/8/1)",
+      "source_files": [
+        "Astralcode/Astralcode/اینستا/رد اتش/مرجله1/1مصاحبه.pdf",
+        "graphify-out/converted/مصاحبه_16ac601c.md"
+      ],
+      "confidence": "INFERRED",
+      "relation": "semantically_similar_to",
+      "why": "inferred connection - not explicitly stated in source; crosses file types (doc ↔ paper); connects across different repos/directories; semantically similar concepts with no structural link; peripheral node `First Mahbod interview PDF` unexpectedly reaches hub `Mahbod first interview (1395/8/1)`"
+    },
+    {
+      "source": "First Mahbod interview PDF (miras folder)",
+      "target": "Mahbod first interview (1395/8/1)",
+      "source_files": [
+        "insta-rede-atash/insta/رد آتش/مرحله1/مصاحبه.pdf",
+        "graphify-out/converted/مصاحبه_16ac601c.md"
+      ],
+      "confidence": "INFERRED",
+      "relation": "semantically_similar_to",
+      "why": "inferred connection - not explicitly stated in source; crosses file types (doc ↔ paper); connects across different repos/directories; semantically similar concepts with no structural link; peripheral node `First Mahbod interview PDF (miras folder)` unexpectedly reaches hub `Mahbod first interview (1395/8/1)`"
+    },
+    {
+      "source": "Red-flag Mahbod interrogation PDF",
+      "target": "Red-flag Mahbod interrogation (v2)",
+      "source_files": [
+        "Astralcode/Astralcode/اینستا/مرحله3/بازپرسی مهبد قرمز.pdf",
+        "graphify-out/converted/بازپرسی مهبد قرمز_5a5f02c9.md"
+      ],
+      "confidence": "INFERRED",
+      "relation": "semantically_similar_to",
+      "why": "inferred connection - not explicitly stated in source; crosses file types (doc ↔ paper); connects across different repos/directories; semantically similar concepts with no structural link"
+    },
+    {
+      "source": "Red-flag Mahbod interrogation PDF (miras folder)",
+      "target": "Red-flag Mahbod interrogation (v2)",
+      "source_files": [
+        "insta-rede-atash/insta/رد آتش/مرحله3/بازپرسی مهبد قرمز.pdf",
+        "graphify-out/converted/بازپرسی مهبد قرمز_5a5f02c9.md"
+      ],
+      "confidence": "INFERRED",
+      "relation": "semantically_similar_to",
+      "why": "inferred connection - not explicitly stated in source; crosses file types (doc ↔ paper); connects across different repos/directories; semantically similar concepts with no structural link"
+    },
+    {
+      "source": "Historian's memoirs PDF (miras-e-qajar root)",
+      "target": "Historian's Telegram channel monologue",
+      "source_files": [
+        "miras-e-qajar-root/میراث قاجار/خاطرات .pdf",
+        "graphify-out/converted/متن کانال تلگرام_61cec265.md"
+      ],
+      "confidence": "INFERRED",
+      "relation": "semantically_similar_to",
+      "why": "inferred connection - not explicitly stated in source; crosses file types (doc ↔ paper); connects across different repos/directories; semantically similar concepts with no structural link"
+    }
+  ],
+  "questions": [
+    {
+      "type": "bridge_node",
+      "question": "Why does `next` connect `Community 0` to `Community 1`, `Community 2`, `Community 3`, `Community 6`?",
+      "why": "High betweenness centrality (0.117) - this node is a cross-community bridge."
+    },
+    {
+      "type": "verify_inferred",
+      "question": "Are the 2 inferred relationships involving `useLang()` (e.g. with `subscribe()` and `getLang()`) actually correct?",
+      "why": "`useLang()` has 2 INFERRED edges - model-reasoned connections that need verification."
+    },
+    {
+      "type": "isolated_nodes",
+      "question": "What connects `nextConfig`, `name`, `version` to the rest of the system?",
+      "why": "171 weakly-connected nodes found - possible documentation gaps or missing edges."
+    },
+    {
+      "type": "low_cohesion",
+      "question": "Should `Community 0` be split into smaller, more focused modules?",
+      "why": "Cohesion score 0.06641604010025062 - nodes in this community are weakly interconnected."
+    },
+    {
+      "type": "bridge_node",
+      "question": "Why does `devDependencies` connect `Community 10` to `Community 2`?",
+      "why": "High betweenness centrality (0.031) - this node is a cross-community bridge."
+    },
+    {
+      "type": "low_cohesion",
+      "question": "Should `Community 1` be split into smaller, more focused modules?",
+      "why": "Cohesion score 0.12564102564102564 - nodes in this community are weakly interconnected."
+    },
+    {
+      "type": "low_cohesion",
+      "question": "Should `Community 2` be split into smaller, more focused modules?",
+      "why": "Cohesion score 0.06060606060606061 - nodes in this community are weakly interconnected."
+    }
+  ]
+}
