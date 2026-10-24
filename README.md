@@ -8,7 +8,7 @@ Play the Real World. Build with your phone's camera. Earn Astral Coins.
 - **Prisma + PostgreSQL** — users, games, play sessions, wallet, coin ledger, achievements, shop, leaderboards
 - **next-auth v4** — credentials + optional Google, JWT sessions
 - **i18n** — English + Persian (Farsi) with full RTL support
-
+333333333333333333333333333333333333333333333333
 ## Quick Start
 
 ```bash
