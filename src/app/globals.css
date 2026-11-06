@@ -1,11 +1,76 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+/* Tailwind v4: a single import replaces @tailwind base/components/utilities.
+   Design tokens live in the @theme block below (replaces tailwind.config.ts). */
+@import "tailwindcss";
+
+/* ---- Astral Code design tokens (ported from tailwind.config.ts) ---- */
+@theme {
+  /* Colors */
+  --color-space-950: #050510;
+  --color-space-900: #080818;
+  --color-space-850: #0a0a1f;
+  --color-space-800: #0e0e28;
+  --color-space-700: #151538;
+  --color-space-600: #1e1e4a;
+
+  --color-violet-neon: #8b5cf6;
+  --color-violet-glow: #a78bfa;
+  --color-violet-deep: #6d28d9;
+
+  --color-cyan-neon: #22d3ee;
+  --color-cyan-glow: #67e8f9;
+
+  --color-fire-neon: #fb923c;
+  --color-fire-glow: #fdba74;
+  --color-fire-deep: #ea580c;
+
+  --color-ink-soft: #c4c4e0;
+  --color-ink-faint: #8b8bb0;
+
+  /* Fonts */
+  --font-display: "Orbitron", system-ui, sans-serif;
+  --font-body: "Inter", system-ui, sans-serif;
+
+  /* Shadows */
+  --shadow-glow-violet: 0 0 24px rgba(139, 92, 246, 0.45);
+  --shadow-glow-cyan: 0 0 24px rgba(34, 211, 238, 0.4);
+  --shadow-glow-fire: 0 0 24px rgba(251, 146, 60, 0.45);
+  --shadow-card: 0 8px 32px rgba(0, 0, 0, 0.5);
+
+  /* Animations + keyframes */
+  --animate-star-drift: starDrift 120s linear infinite;
+  --animate-pulse-slow: pulseSlow 4s ease-in-out infinite;
+  --animate-float: float 6s ease-in-out infinite;
+  --animate-shimmer: shimmer 2.5s linear infinite;
+
+  @keyframes starDrift {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-50%); }
+  }
+  @keyframes pulseSlow {
+    0%, 100% { opacity: 0.6; }
+    50% { opacity: 1; }
+  }
+  @keyframes float {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+  }
+  @keyframes shimmer {
+    0% { background-position: -200% 0; }
+    100% { background-position: 200% 0; }
+  }
+
+  /* Background images */
+  --background-image-gradient-radial: radial-gradient(var(--tw-gradient-stops));
+  --background-image-neon-text: linear-gradient(90deg, #8b5cf6, #22d3ee, #fb923c, #8b5cf6);
+}
+
+/* v4 maps the --color-* tokens above to utilities automatically
+   (e.g. --color-space-950 -> bg-space-950 / text-space-950).
+   Custom shadows: --shadow-card -> shadow-card.
+   Custom gradients: --background-image-neon-text -> bg-neon-text. */
 
 :root {
   color-scheme: dark;
-  --font-display: "Orbitron", system-ui, sans-serif;
-  --font-body: "Inter", system-ui, sans-serif;
 }
 
 @layer base {
@@ -54,13 +119,13 @@
     @apply inline-flex items-center justify-center gap-2 rounded-xl px-5 py-3 font-display text-sm font-semibold tracking-wide transition-all duration-200 disabled:cursor-not-allowed disabled:opacity-50;
   }
   .btn-primary {
-    @apply btn bg-gradient-to-r from-violet-deep via-violet-neon to-cyan-neon text-white shadow-glow-violet hover:brightness-125 hover:scale-[1.03];
+    @apply inline-flex items-center justify-center gap-2 rounded-xl px-5 py-3 font-display text-sm font-semibold tracking-wide transition-all duration-200 disabled:cursor-not-allowed disabled:opacity-50 bg-gradient-to-r from-violet-deep via-violet-neon to-cyan-neon text-white shadow-glow-violet hover:brightness-125 hover:scale-[1.03];
   }
   .btn-fire {
-    @apply btn bg-gradient-to-r from-fire-deep via-fire-neon to-fire-glow text-space-950 shadow-glow-fire hover:brightness-110 hover:scale-[1.03];
+    @apply inline-flex items-center justify-center gap-2 rounded-xl px-5 py-3 font-display text-sm font-semibold tracking-wide transition-all duration-200 disabled:cursor-not-allowed disabled:opacity-50 bg-gradient-to-r from-fire-deep via-fire-neon to-fire-glow text-space-950 shadow-glow-fire hover:brightness-110 hover:scale-[1.03];
   }
   .btn-ghost {
-    @apply btn border border-white/20 bg-white/5 text-white hover:border-cyan-neon/60 hover:shadow-glow-cyan;
+    @apply inline-flex items-center justify-center gap-2 rounded-xl px-5 py-3 font-display text-sm font-semibold tracking-wide transition-all duration-200 disabled:cursor-not-allowed disabled:opacity-50 border border-white/20 bg-white/5 text-white hover:border-cyan-neon/60 hover:shadow-glow-cyan;
   }
   .tag {
     @apply inline-flex items-center rounded-full border border-cyan-neon/30 bg-cyan-neon/10 px-2.5 py-0.5 text-xs font-medium text-cyan-glow;
